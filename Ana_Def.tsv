@@ -1,4 +1,25 @@
 Front	Back
+
+Metrik	Eine \(Metrik\) auf einer Menge \(X\) ist eine Abbildung \( d:X \times X \rightarrow \mathbb{R}\) mit folgenden Eigenschaften:\begin{eqnarray*} (i) \ d(x,y) & \geq & 0 \ und \ d(x,y)=0 \ genau \ dann, wenn \ x=y \\ (ii) \ d(x,y) & = & d(y,x) \\ (iii) \ d(x,y) & \leq & d(x,z)+d(z,y) \end{eqnarray*} fuer alle \( x,y,z \in X. \)
+Diskrete Metrik	Auf jeder Menge \( X \neq \emptyset \) wird durch \[ d(x,y)=\begin{cases} 1, & x \neq y \\ 0, & x=y\end{cases}\] eine Metrik festgelegt, die man \(Diskrete Metrik\) nennt.
+Wie nennt man die Abbildung die auf jeder Menge \( X \neq \emptyset \) durch \[ d(x,y)=\begin{cases} 1, & x \neq y \\ 0, & x=y\end{cases}\] eine Metrik festgelegt?	Diskrete Metrik
+Welche Teilmenge eines metrischen Raumes unter Beibehaltung des Abstandsmaßes bleibt ein metrischer Raum?	Jede Teilmenge eines metrischen Raumes bleibt unter Beibehaltung des Abstandsmaßes ein metrischer Raum.
+Norm	Eine \(Norm\) auf einem reellen Vektorraum \(V\) ist eine Abbildung \| \cdot \|: \(V \rightarrow \mathbb{R}\) mit folgenden Eigenschaften:\begin{eqnarray*}  (i) \ \|x\| & \geq & 0 \text{ und } \|x\|=0 \text{ genau dann, wenn } x=y, \\  (ii) \ \|\lambda\| & = & |\lambda|\|x\|, \\ (iii) \ \|x+y\| & \leq & \|x\|+\|y\| \end{eqnarray*} fuer alle \( x,y,z \in V\) und alle  \lambda \in \mathbb{R}. \)
+Induzierte Metrik	Fuer jede Norm \(\| \cdot \|\) auf einem reellen Vektorraum \(V\) wird durch \[d(x,y):=\|x-y\| \] eine Metrik festgelegt, die von dieser Norm induzierte Metrik.
+Metrischer Raum	Sei \(X\) eine Menge und \(d\) eine Metrik auf \(X\). Dann heisst \(X\) zusammen mit der Metrik \(d\) \(metrischer Raum\).
+Maximumsnorm	Fuer \(\mathbb{R}^n:=\{(x_1,\dots,x_n)|x_i \in \mathbb{R}\} \) ist \[\|x\|_\infty :=\max_{i=1,\dots,n} |x_i|,\] eine Norm auf dem \(\mathbb{R}^n\), genannt Maximumsnorm
+Wie nennt man die Norm auf dem \(\mathbb{R}^n\) mit \[\|x\|_1 :=\sum \limits_{i=1} \limits^n |x_i|\] fuer \(\mathbb{R}^n:=\{(x_1,\dots,x_n)|x_i \in \mathbb{R}\} \)	1-Norm
+1-Norm	Fuer \(\mathbb{R}^n:=\{(x_1,\dots,x_n)|x_i \in \mathbb{R}\} \) ist \[\|x\|_1 :=\sum \limits_{i=1} \limits^n |x_i|\] eine Norm auf dem \(\mathbb{R}^n\), genannt 1-Norm
+Wie nennt man die Norm auf dem \(\mathbb{R}^n\) mit \[\|x\|_\infty :=\max_{i=1,\dots,n} |x_i|,\] fuer \(\mathbb{R}^n:=\{(x_1,\dots,x_n)|x_i \in \mathbb{R}\} \)	Maximumsnorm
+Wie heißt die Ungleichung? \[ d(x,y)\leq d(x,z)+d(z,y)\] 	Die Ungleichung \[ d(x,y)\leq d(x,z)+d(z,y)\]  heisst \(Dreiecksungleichung\)
+Wie lautet die \(Dreiecksungleichung\)? 	Die \(Dreiecksungleichung\) lautet \[ d(x,y)\leq d(x,z)+d(z,y)\]
+Inneres\mathring{M} einer Teilmenge \(M\) des topologischen Raums	Das Innere \mathring{M} einer Teilmenge \(M\) des topologischen Raums ist offen und besteht aus der Menge aller inneren Punkte von \(M\).
+abgeschlossene Huelle	Die abgeschlossene Huelle \bar{M} von \(M\) ist abgeschlossen und besteht aus der Menge aller Beruehrpunkte von \(M\).
+Rand	Der Rand \(\delta M \) von \(M\) ist abgeschlossen und besteht aus der Menge aller Beruehrpunkte von M, die keine inneren Punkte von \(M\) sind.
+
+
+
+
 Differenzierbar in \(x_0\) (Verallgemeinert auf normierte Vektorraeume)	Seien \(E\) und \(F\) normierte Vektorraeume. Dann heisst \(f: \Omega \subseteq E \rightarrow F,\ \Omega\) offen, in \(x_0 \in \Omega\) differenzierbar, wenn es eine lineare Abbildung \(A: E \rightarrow F\) mit \[\lim \limits_{x \rightarrow x_0} \frac{\|f(x)-\{f(x_0)+A(x-x_0)\}\|_{F}}{\|x-x_0\|_{E}}}\] gibt.
 Operatornorm	Der Ausdruck \[\|A\|_{E \rightarrow F} := \sup_{\|v\|_{E}=1}\|Av\|_{F}\] wird als Operatornorm von \(A\) bezeichnet.
 Differenzierbar	Die Funktion \(f: \Omega \subseteq E \rightarrow F\) heisst auf der offenen Menge \(\Omega\) differenzierbar, wenn \(f\) in jedem Punkt \(x_0 \in \Omega\) differenzierbar ist.
