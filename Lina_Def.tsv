@@ -18,6 +18,14 @@ Teilkoerper	Sei \((K, \oplus, \otimes)\) ein Koerper und \(L \subseteq K\). Ist 
 
 
 
+
+Eigenwert	Sei \(V\) ein \(K\)-Vektorraum und sei \(f \in L(V,V).\) Falls fuer ein \(v \in V \setminus \{0\}\)  und ein \(\lambda \in K\) die Gleichung \[f(v)=\lambda v\] gilt, so nennt man \(\lambda\) einen Eigenwert von \(f\) und \(v\) einen zum Eigenwert \(\lambda\) gehoerenden Eigenvektor von \(f\).
+Eigenvektor	Sei \(V\) ein \(K\)-Vektorraum und sei \(f \in L(V,V).\) Falls fuer ein \(v \in V \setminus \{0\}\)  und ein \(\lambda \in K\) die Gleichung \[f(v)=\lambda v\] gilt, so nennt man \(\lambda\) einen Eigenwert von \(f\) und \(v\) einen zum Eigenwert \(\lambda\) gehoerenden Eigenvektor von \(f\).
+Eigenraum	Sind \(V\) ein \(K\)-Vektorraum und \(\lambda \in K\) ein Eigenwert von \(f \in L(V,V)\), so hei\ss t der Unterraum \[V_f(\lambda):= Kern(\lambda Id_V - f)\] der Eigenraum von \(f\) zum Eigenwert \(\lambda\).
+Geometrische Vielfachheit	Sind \(V\) ein \(K\)-Vektorraum und \(\lambdaa \in K\) ein Eigenwert von \(f \in L(V,V)\), so hei\ss t \[g(\lambda, f):=dim(V_f(\lambda)\] die geometrische Vielfachheit des Eigenwertes \(\lambda\) von \(f\).
+\(f\)-invarianter Unterraum	Sei \(V\) ein \(K\)-Vektorraum und \(\lambda \in K\) ein Eigenwert von \(f \in L(V,V)\) und \(U \subseteq V\) ein Unterraum. Gilt \(f(U) \subseteq U\), also \(f(u) \in U\) fuer alle \(u \in U\), so hei\ss t \(U\) ein \(f\)-invarianter Unterraum von \(V\).
+
+
 Teiler	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Wenn es fuer zwei Polynome \(p,s \in K[t]\) ein Polynom \(q \in K[t]\) mit \(p=s*q\) gibt, dann hei\ss t \(s\) ein Teiler von \(p\) und wir schreiben \(s|p\) (s teilt p).
 teilerfremde Polynome	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Zwei Polynome \(p,s \in K[t]\) hei\ss en teilerfremd, wenn aus \(q|p\) und \(q|s\) fuer ein \(q \in K[t]\) stets folgt, dass \(q\) ein kostantes Polynom ist.
 Irreduzibel/Reduzibel	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Ein nicht-konstantes Polynom \(p \in K[t]\) hei\ss t irreduzibel (ueber \(K\)), wenn aus \(p=s*q\) fuer zwei Polynome \(s,q \in K[t]\) folgt, dass \(s\) oder \(q\) ein konstantes Polynom ist. Falls es zwei nicht-konstante Polynome \(s,q \in K[t]\) mit \(p=s*q\) gibt, so hei\ss t \(p\) reduzibel (ueber K)
