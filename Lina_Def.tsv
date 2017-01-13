@@ -19,6 +19,9 @@ Teilkoerper	Sei \((K, \oplus, \otimes)\) ein Koerper und \(L \subseteq K\). Ist 
 
 
 Teiler	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Wenn es fuer zwei Polynome \(p,s \in K[t]\) ein Polynom \(q \in K[t]\) mit \(p=s*q\) gibt, dann hei\ss t \(s\) ein Teiler von \(p\) und wir schreiben \(s|p\) (s teilt p).
+teilerfremde Polynome	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Zwei Polynome \(p,s \in K[t]\) hei\ss en teilerfremd, wenn aus \(q|p\) und \(q|s\) fuer ein \(q \in K[t]\) stets folgt, dass \(q\) ein kostantes Polynom ist.
+Irreduzibel/Reduzibel	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Ein nicht-konstantes Polynom \(p \in K[t]\) hei\ss t irreduzibel (ueber \(K\)), wenn aus \(p=s*q\) fuer zwei Polynome \(s,q \in K[t]\) folgt, dass \(s\) oder \(q\) ein konstantes Polynom ist. Falls es zwei nicht-konstante Polynome \(s,q \in K[t]\) mit \(p=s*q\) gibt, so hei\ss t \(p\) reduzibel (ueber K)
+Vielfachheit	Seien \(p \in K[t]\) und \(\lambda \in K\) eine Nullstelle von \(p\). Dann ist die Vielfachheit der Nullstelle \(\lambda\) die eindeutig bestimmte natuerliche Zahl \(m\), so dass \(p=(t-\lambda )^m*q\) fuer ein Polynom \(q \in K[t]\) mit \(q(\lambda) \neq 0\) ist.
 
 
 
