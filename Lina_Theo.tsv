@@ -5,14 +5,16 @@ Lemma 3.14	Fuer jeden Koerper \(K\) gelten folgende Aussagen: \begin{enumerate} 
 
 
 
-
-
-
 Lemma 8.3	Sei \((R,+,*)\) ein Ring mit eins. Fuer \(A \in R^{n,n}\) gilt \(P_A=P_{A^T}\) und \[P_A = t^n -\alpha_{n-1}t^{n-1}+\ldots+(-1)^{n-1} \alpha_1 t + (-1)^n \alpha_0\] mit \(\alpha_{n-1}=\sum_{i=1}^n a_{ii}\) und \(\alpha _0 = \det (A)\).s
 
 
 Lemma 14.4	Sind \(V\) ein \(K\)-Vektorraum und \(\lambda \in K\) ein Eigenwert von \(f \in L(V,V)\), so ist \(V_f(\lambda)\) ein \(f\)-invarianter Unterraum von \(V\).
 Lemma 14.5	Sind \(V\) ein endlichdimensionaler \(K\)-Vektorraum und \(f \in L(V,V)\), dann sind folgende Aussagen aequivalent: \begin{enumerate} \item \(\lambda \in K\) ist ein Eigenwert von \(f\). \item \(\lambda \in K\) ist ein Eigenwert der Matrix \([f]_{B,B}\) fuer jede Basis \(B\) von \(V\).
+Satz 14.7	Sind \(n \in \mathbb{N}, V\) ein n-dimenionaler \(K\)-Vektorraum mit Basis \(B\) und \(f \in L(V,V)\). Das Charakteristische Polynom \(P_f\) ist stets ein monisches Polynom mit \[Grad(P_f)=n=dim(V).\]
+Satz 14.8	Sei \(V\) ein endlichdimensionaler \(K\)-Vektorraum, \(f \in f(V,V)\) und sei \(\lambda \in K\) ein Eigenwert von \(f\). Sind \(\lambda_1,\ldots,\lambda_k\) die paarweise verschiedenen Eigenwerte von \(f\) mit ihren jeweiligen algebraischen Vielfachheiten \(a(\lambda_1,f),\ldots ,a(\lambda_k,f)\), und ist \(\dim(V)=n\), so gilt \[a(\lambda_1,f)+\ldots+a(\lambda_k,f) \leq n,\] denn \(Grad(P_f)=\dim(V)=n\).
+Lemma 14.10	Sind \(V\) ein endlichdimensionaler \(K\)-Vektorraum und \(f \in L(V,V),\) so gilt \[g(\lambda,f) \leq a(\lambda,f)\] fuer jeden Eigenwert \(\lambda\) von \(f\).
+Lemma 14.12	Sei \(V\) ein \(K\)-Vektorraum und \(f \in L(V,V)\). Sind \(\lambda_1, \ldots, \lambda_k, k \geq 2,\) paarweise verschiedene Eigenwerte von \(f\) mir zugehoerigen Eigenvektoren \(v_1,\ldots,v_k \in V,\) dann sind \(v_1, \ldots, v_k\) linear unabhaengig.
+Lemma 14.13	Sei \(V\) ein \(K\)-Vektorraum und \(f \in L(V,V)\). Sind \(\lambda_1,\ldots,\lambda_k \in K, k \geq 2,\) paarweise verschiedene Eigenwerte von \(f\), dann gilt fuer die zugehoerigen Eigenraeume \[V_f(\lambda_i) \cap \sum^k_{\substack{j=1 \\j \neq i}} V_f(\lambda_j)=\{0\}\] fuer alle \(i=1,\ldots,k.\)
 
 
 
