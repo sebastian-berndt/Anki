@@ -14,28 +14,3 @@ Ring mit Eins	Sei \((R,\oplus, \otimes)\) ein Ring. Ist die Halbgruppe \((R,\oti
 Koerper	Ein Koerper ist eine Algebraische Struktur bestehend aus einer Menge \(K\) mit zwei inneren zweistelligen Verknuepfungen \(\oplus\) und \(\otimes\) fuer die folgende Regeln erfuellt sind: \begin{enumerate} \item \((K,\oplus)\) ist eine kommutative Gruppe. (Dabei hei\ss t das neutrale Element bzgl \(\oplus\) Null und wird mit \(0\) bezeichnet. Das zu \(a \in K\) inverse Element bezeichnet man mit \(-a\).) \item \((K \setminus \{0\},\otimes)\) ist eine kommutative Gruppe. (Man nennt das neutrale Element bzgl. \(\otimes\) Eins und bezeichnet es mit \(1\). Das zu \(a \in K \setminus \{0\}\) inverse Element bezeichnet man mit \(a^{-1}\)) \item Es gelten die Distributivgesetze, sodass fuer alle \(a,b,c \in K\) gilt: \[a \otimes (b \oplus c) = a \otimes b \oplus a \otimes c,\] \[(a \oplus b) \otimes c = a \otimes c \oplus b \otimes c.\] \end{enumerate}
 Nullteiler	Sei \((R,\oplus,\otimes)\) ein Ring. Dann hei\ss t \(a \in R\) ein Nullteiler, wenn ein \( b \in R \setminus \{0\}\) mit \(a \otimes b = 0\) existiert.
 Teilkoerper	Sei \((K, \oplus, \otimes)\) ein Koerper und \(L \subseteq K\). Ist \((L, \oplus, \otimes)\) ein Koerper, so nennen wir diesen einen Teilkoerper von \((K,\oplus,\otimes).\
-
-
-
-
-
-Eigenwert	Sei \(V\) ein \(K\)-Vektorraum und sei \(f \in L(V,V).\) Falls fuer ein \(v \in V \setminus \{0\}\)  und ein \(\lambda \in K\) die Gleichung \[f(v)=\lambda v\] gilt, so nennt man \(\lambda\) einen Eigenwert von \(f\) und \(v\) einen zum Eigenwert \(\lambda\) gehoerenden Eigenvektor von \(f\).
-Eigenvektor	Sei \(V\) ein \(K\)-Vektorraum und sei \(f \in L(V,V).\) Falls fuer ein \(v \in V \setminus \{0\}\)  und ein \(\lambda \in K\) die Gleichung \[f(v)=\lambda v\] gilt, so nennt man \(\lambda\) einen Eigenwert von \(f\) und \(v\) einen zum Eigenwert \(\lambda\) gehoerenden Eigenvektor von \(f\).
-Eigenraum	Sind \(V\) ein \(K\)-Vektorraum und \(\lambda \in K\) ein Eigenwert von \(f \in L(V,V)\), so hei\ss t der Unterraum \[V_f(\lambda):= Kern(\lambda Id_V - f)\] der Eigenraum von \(f\) zum Eigenwert \(\lambda\).
-Geometrische Vielfachheit	Sind \(V\) ein \(K\)-Vektorraum und \(\lambdaa \in K\) ein Eigenwert von \(f \in L(V,V)\), so hei\ss t \[g(\lambda, f):=dim(V_f(\lambda)\] die geometrische Vielfachheit des Eigenwertes \(\lambda\) von \(f\).
-\(f\)-invarianter Unterraum	Sei \(V\) ein \(K\)-Vektorraum und \(\lambda \in K\) ein Eigenwert von \(f \in L(V,V)\) und \(U \subseteq V\) ein Unterraum. Gilt \(f(U) \subseteq U\), also \(f(u) \in U\) fuer alle \(u \in U\), so hei\ss t \(U\) ein \(f\)-invarianter Unterraum von \(V\).
-Charakteristisches Polynom	Sind \(n \in \mathbb{N}, V\) ein \(n\)-dimensionaler \(K\)-Vektorraum mit Basis \(B\) und \(f \in L(V,V),\) dann nennen wir \[P_f := \det(t I_n -[f]_{B,B}) \in K[t]\] das charakteristische Polynom von \(f\).
-Algebraische Vielfachheit	Sei \(V\) ein endlichdimensionaler \(K\)-Vektorraum, \(f \in f(V,V)\) und sei \(\lambda \in K\) ein Eigenwert von \(f\). Hat das charakteristische Polynom die Form \[P_f = (t-\lambda)^d *g\] fuer ein \(g \in K[t]\) mit \(g(\lambda) \leq 0,\) so nennen wir \(d\) die algebraische Vielfachheit des Eigenwerts \(\lambda\) von \(f\). Wir bezeichnen diese mit \(a(\lambda,f)\).
-Diagonalisierbar	Sei \(V\) ein endlichdimensionaler \(K\)-Vektorraum. Ein Endomorphismus \(f \in L(V,V)\) hei\ss t diagonalisierbar, wenn es eine Basis \(B\) von \(V\) gibt, so dass \([f]_{B,B}\) eine Diagonalmatrix ist.
-
-
-
-Teiler	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Wenn es fuer zwei Polynome \(p,s \in K[t]\) ein Polynom \(q \in K[t]\) mit \(p=s*q\) gibt, dann hei\ss t \(s\) ein Teiler von \(p\) und wir schreiben \(s|p\) (s teilt p).
-teilerfremde Polynome	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Zwei Polynome \(p,s \in K[t]\) hei\ss en teilerfremd, wenn aus \(q|p\) und \(q|s\) fuer ein \(q \in K[t]\) stets folgt, dass \(q\) ein kostantes Polynom ist.
-Irreduzibel/Reduzibel	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Ein nicht-konstantes Polynom \(p \in K[t]\) hei\ss t irreduzibel (ueber \(K\)), wenn aus \(p=s*q\) fuer zwei Polynome \(s,q \in K[t]\) folgt, dass \(s\) oder \(q\) ein konstantes Polynom ist. Falls es zwei nicht-konstante Polynome \(s,q \in K[t]\) mit \(p=s*q\) gibt, so hei\ss t \(p\) reduzibel (ueber K)
-Vielfachheit	Seien \(p \in K[t]\) und \(\lambda \in K\) eine Nullstelle von \(p\). Dann ist die Vielfachheit der Nullstelle \(\lambda\) die eindeutig bestimmte natuerliche Zahl \(m\), so dass \(p=(t-\lambda )^m*q\) fuer ein Polynom \(q \in K[t]\) mit \(q(\lambda) \neq 0\) ist.
-
-
-
-Charakteristisches Polynom	Sind \(R\) ein kommutativer Ring mit Eins und \(A \in R^{n,n}\), dann hei\ss t \[P_A:=det(tI_n - A) \in R[t]\] das charakteristische Polynom von \(A\).
-Spur einer Matrix	Sei \(K\) ein Koerper und \( A \in K^{n,n}\). Dann bezeichnet man die Summe der Hauptdiagonalelemente von A als Spur von A. \[Spur(A):= \sum_{i=1}^n a_{ii}.\]

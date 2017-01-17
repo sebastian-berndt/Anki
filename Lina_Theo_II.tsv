@@ -1,13 +1,3 @@
-Satz 3.2	Fuer jede Gruppe \((G,\oplus)\) gelten: \begin{enumerate} \item Ist \(e \in G\) ein neutrales Element und sind \(a,\~a \in G\) mit \( \~a \oplus a = e\), so gilt auch \(a \oplus \~a = e\). \item Ist \(e \in G\) ein neutrales Element und ist \(a \in G\), so gilt auch \(a \oplus e = a\). \item \(G\) enthaelt genau ein neutrales Element. \item Zu jedem \(a \in G\) gibt es genau ein inverses Element. \end{enumerate}
-Satz 3.8	Sei \((R,\oplus, \otimes)\) ein Ring. Dann gilt: \begin{enumerate} \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in R\) \item \(a \otimes (-b) = -(a \otimes b) = (-a) \otimes b\) und \((-a) \otimes (-b) = a \otimes b\)  fuer alle \(a,b \in R\)\end{enumerate}
-Satz 3.11	Sei \((R,\oplus,\otimes)\) ein Ring mit Eins. Dann gilt: \begin{enumerate} \item Falls zu \(a \in R\) ein inverses Element (bezueglich \(\otimes\)) existiert, so ist dieses eindeutig. Man bezeichnet es dann mit \(a^{-1}\). \item Sind \(a,b \in R\) invertierbar, so ist \(a \otimes b\) invertierbar und \[(a \otimes b)^{-1}=b^{-1} \otimes a^{-1}.\]\end{enumerate}
-Lemma 3.14	Fuer jeden Koerper \(K\) gelten folgende Aussagen: \begin{enumerate} \item \(K\) hat mindestens zwei Elemente. \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in K.\) \item \(a \otimes b = a \otimes c\) und \(a \neq 0\) impliziert \(b = c\) fuer alle, \(a,b,c \in K.\) \item \(a \otimes b = 0\) impliziert \( a = 0\) oder \(b=0\), fuer alle \(a,b \in K.\)\end{enumerate}
-
-
-
-Lemma 8.3	Sei \((R,+,*)\) ein Ring mit eins. Fuer \(A \in R^{n,n}\) gilt \(P_A=P_{A^T}\) und \[P_A = t^n -\alpha_{n-1}t^{n-1}+\ldots+(-1)^{n-1} \alpha_1 t + (-1)^n \alpha_0\] mit \(\alpha_{n-1}=\sum_{i=1}^n a_{ii}\) und \(\alpha _0 = \det (A)\).s
-
-
 Lemma 14.4	Sind \(V\) ein \(K\)-Vektorraum und \(\lambda \in K\) ein Eigenwert von \(f \in L(V,V)\), so ist \(V_f(\lambda)\) ein \(f\)-invarianter Unterraum von \(V\).
 Lemma 14.5	Sind \(V\) ein endlichdimensionaler \(K\)-Vektorraum und \(f \in L(V,V)\), dann sind folgende Aussagen aequivalent: \begin{enumerate} \item \(\lambda \in K\) ist ein Eigenwert von \(f\). \item \(\lambda \in K\) ist ein Eigenwert der Matrix \([f]_{B,B}\) fuer jede Basis \(B\) von \(V\).
 Satz 14.7	Sind \(n \in \mathbb{N}, V\) ein n-dimenionaler \(K\)-Vektorraum mit Basis \(B\) und \(f \in L(V,V)\). Das Charakteristische Polynom \(P_f\) ist stets ein monisches Polynom mit \[Grad(P_f)=n=dim(V).\]
@@ -35,9 +25,3 @@ Satz 15.17	Sei V ein endlichdimensionaler unitaerer Vektorraum und seien \(f_1, 
 Lemma 16.1	Sind \(V\) ein endlichdimensionaler K-Vektorraum und \(f \in L(V,V)\), dann gelten: \begin{enumerate} \item Hat \(v_0 \in V \setminus \{0\}\) den Grad \(m\) bzgl. \(f\), so ist \(K_m(f,v_0)\) ein \(f\)-invarianter Unterraum und es gilt \[Span\{v_0\}=K_1(f,v_0) \subset K_2(f,v_0) \subset \cdots \subset K_m(f,v_0)=K_{m+j}(f,v_0)\] fuer alle \(j \in \mathbb{N}.\) \item Hat \(v_0 \in V\setminus \{0\}\) den Grad \(m\) bzgl. \(f\) und ist \(U \subseteq V\) ein \(f\)-invarianter Unterraum, der den Vektor \(v_0\) enthaelt, so gilt \(K_m(f,v_0) \subseteq U\). Unter allen \(f\)-invarianten Unterraeumen von \(V\), die den Vektor \(v_0\) enthalten, ist somit \(K_m(f,v_0)\) derjenige mit der kleinsten Dimension. \item Ist \(v_0 \in V\) mit \(f^{m-1}(v_0) \neq 0\) und \(f^m(v_0)=0\) fuer ein \(m \in \mathbb{N}\), so gilt \(\dim(K_j(f,v_0))=j\) fuer \(j=1,\ldots,m\) \end{enumerate}
 Lemma 16.3	Sei \(V \neq \{0\}\) ein \(K\)-Vektorraum und ist \(f \in L(V,V)\) nilpotent vom Grad \(m\), dann gilt \(m \leq dim(V).\)
 Satz 16.5	Sei \(V\) ein endlichdimensionaler \(K\)-Vektorraum und \(f \in L(V,V)\). Dann existieren \(f\)-invariante Unterraeume \(U_1 \subseteq V\) und \(U_2 \subseteq V\) mit \(V=U_1 \oplus U_2\), so dass \(f|_U_1 \in L(U_1,U_1)\) bijektiv und \(f|_U_2 \in L(U_2,U_2)\) nilpotent ist.
-
-
-
-
-
-Beispiel Kommutativer Ring mit Eins:	\((\mathbb{N}, \oplus, \otimes)\)

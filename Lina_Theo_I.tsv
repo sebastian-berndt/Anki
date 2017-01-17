@@ -1,0 +1,14 @@
+Satz 3.2	Fuer jede Gruppe \((G,\oplus)\) gelten: \begin{enumerate} \item Ist \(e \in G\) ein neutrales Element und sind \(a,\~a \in G\) mit \( \~a \oplus a = e\), so gilt auch \(a \oplus \~a = e\). \item Ist \(e \in G\) ein neutrales Element und ist \(a \in G\), so gilt auch \(a \oplus e = a\). \item \(G\) enthaelt genau ein neutrales Element. \item Zu jedem \(a \in G\) gibt es genau ein inverses Element. \end{enumerate}
+Satz 3.8	Sei \((R,\oplus, \otimes)\) ein Ring. Dann gilt: \begin{enumerate} \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in R\) \item \(a \otimes (-b) = -(a \otimes b) = (-a) \otimes b\) und \((-a) \otimes (-b) = a \otimes b\)  fuer alle \(a,b \in R\)\end{enumerate}
+Satz 3.11	Sei \((R,\oplus,\otimes)\) ein Ring mit Eins. Dann gilt: \begin{enumerate} \item Falls zu \(a \in R\) ein inverses Element (bezueglich \(\otimes\)) existiert, so ist dieses eindeutig. Man bezeichnet es dann mit \(a^{-1}\). \item Sind \(a,b \in R\) invertierbar, so ist \(a \otimes b\) invertierbar und \[(a \otimes b)^{-1}=b^{-1} \otimes a^{-1}.\]\end{enumerate}
+Lemma 3.14	Fuer jeden Koerper \(K\) gelten folgende Aussagen: \begin{enumerate} \item \(K\) hat mindestens zwei Elemente. \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in K.\) \item \(a \otimes b = a \otimes c\) und \(a \neq 0\) impliziert \(b = c\) fuer alle, \(a,b,c \in K.\) \item \(a \otimes b = 0\) impliziert \( a = 0\) oder \(b=0\), fuer alle \(a,b \in K.\)\end{enumerate}
+
+
+
+Lemma 8.3	Sei \((R,+,*)\) ein Ring mit eins. Fuer \(A \in R^{n,n}\) gilt \(P_A=P_{A^T}\) und \[P_A = t^n -\alpha_{n-1}t^{n-1}+\ldots+(-1)^{n-1} \alpha_1 t + (-1)^n \alpha_0\] mit \(\alpha_{n-1}=\sum_{i=1}^n a_{ii}\) und \(\alpha _0 = \det (A)\).s
+
+
+
+
+
+Beispiel Kommutativer Ring mit Eins:	\((\mathbb{N}, \oplus, \otimes)\)
