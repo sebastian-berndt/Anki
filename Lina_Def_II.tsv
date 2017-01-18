@@ -8,6 +8,9 @@ Algebraische Vielfachheit	Sei \(V\) ein endlichdimensionaler \(K\)-Vektorraum, \
 Diagonalisierbar	Sei \(V\) ein endlichdimensionaler \(K\)-Vektorraum. Ein Endomorphismus \(f \in L(V,V)\) hei\ss t diagonalisierbar, wenn es eine Basis \(B\) von \(V\) gibt, so dass \([f]_{B,B}\) eine Diagonalmatrix ist.
 
 
+Schur-Form einer Matrix	Ist \(A \in \mathbb{C}^{n,n}\), so gibt es eine unitaere Matrix \(Q \in C^{n,n}\) und eine obere Dreiecksmatrix \(R \in \mathbb{C}^{n,n}\) mit \(A=QRQ^H\). Die Matrix \(R\) nennen wir eine Schur-Form von \(A\).
+
+
 
 Teiler	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Wenn es fuer zwei Polynome \(p,s \in K[t]\) ein Polynom \(q \in K[t]\) mit \(p=s*q\) gibt, dann hei\ss t \(s\) ein Teiler von \(p\) und wir schreiben \(s|p\) (s teilt p).
 teilerfremde Polynome	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Zwei Polynome \(p,s \in K[t]\) hei\ss en teilerfremd, wenn aus \(q|p\) und \(q|s\) fuer ein \(q \in K[t]\) stets folgt, dass \(q\) ein kostantes Polynom ist.
