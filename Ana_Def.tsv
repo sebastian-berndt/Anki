@@ -20,14 +20,14 @@ Rand	Der Rand \(\delta M \) von \(M\) ist abgeschlossen und besteht aus der Meng
 
 
 
-Differenzierbar in \(x_0\) (Verallgemeinert auf normierte Vektorraeume)	Seien \(E\) und \(F\) normierte Vektorraeume. Dann heisst \(f: \Omega \subseteq E \rightarrow F,\ \Omega\) offen, in \(x_0 \in \Omega\) differenzierbar, wenn es eine lineare Abbildung \(A: E \rightarrow F\) mit \[\lim \limits_{x \rightarrow x_0} \frac{\|f(x)-\{f(x_0)+A(x-x_0)\}\|_{F}}{\|x-x_0\|_{E}}}\] gibt.
+Differenzierbar in \(x_0\) (Verallgemeinert auf normierte Vektorraeume)	Seien \(E\) und \(F\) normierte Vektorraeume. Dann heisst \(f: \Omega \subseteq E \rightarrow F,\ \Omega\) offen, in \(x_0 \in \Omega\) differenzierbar, wenn es eine lineare Abbildung \(A: E \rightarrow F\) mit \[\lim \limits_{x \rightarrow x_0} \frac{\|f(x)-\{f(x_0)+A(x-x_0)\}\|_{F}}{\|x-x_0\|_{E}}\] gibt.
 Operatornorm	Der Ausdruck \[\|A\|_{E \rightarrow F} := \sup_{\|v\|_{E}=1}\|Av\|_{F}\] wird als Operatornorm von \(A\) bezeichnet.
 Differenzierbar	Die Funktion \(f: \Omega \subseteq E \rightarrow F\) heisst auf der offenen Menge \(\Omega\) differenzierbar, wenn \(f\) in jedem Punkt \(x_0 \in \Omega\) differenzierbar ist.
 Stetig Differenzierbar	Die Funktion \(f: \Omega \subseteq E \rightarrow F\) heisst auf der offenen Menge \(\Omega\) stetig differenzierbar, wenn die Abbildung \[f': \Omega \rightarrow L(E,F):x \rightarrow f'(x)\] stetig ist.
 Richtungsdifferenzierbar	Die Funktion \(f: \Omega \subseteq E \rightarrow F\) heisst richtungsdifferenzierbar in Richtung \(e \in E, e\neq 0\), wenn die Richtungsableitung existiert.
 Richtungsableitung	\[\lim_{t \rightarrow 0} \frac {f(x_0+te)-f(x_0)}{t}\]
 Partielle Ableitung	Ist \(E=\mathbb{R}^n,F=\mathbb{R}^m\) und \(e=e_i\) der \(i\)-te Einheitsvektor, so ist die Richtungsableitung in Richtung \(e_i\) die partielle Ableitung \[(\frac{\partial f}{\partial x_i})(x)= \lim_{t \rightarrow 0} \frac {f(x+te_1)-f(x)}{t}\] von \(f\) nach der \(i\)-ten Variable im Punkt \(x\).
-Aequivalente Schreibweisen fuer partielle Ableitungen	\(D_i f= \frac{\partial f}{\partial x_i} = \frac{\partial}{\partial x_i} f.
+Aequivalente Schreibweisen fuer partielle Ableitungen	\(D_i f= \frac{\partial f}{\partial x_i} = \frac{\partial}{\partial x_i} f.\)
 Jacobimatrix	Die Jacobimatrix oder Funktionalmatrix von \(f: \Omega \subseteq \mathbb{R}^n \rightarrow \mathbb{R}^m\) ist \[\begin{pmatrix} \frac{\partial f_1}{\partial x_1} & \cdots & \frac{\partial f_2}{\partial x_2} \\ \vdots & \ddots & \vdots \\\frac{\partial f_m}{\partial x_1} & \cdots & \frac{\partial f_m}{\partial x_n} \end{pmatrix}\]
 Gradient	Die Ableitung einer differenzierbaren Funktion \(f: \Omega \subseteq \mathbb{R}^n \rightarrow \mathbb{R}\) wird als Gradient von \(f\) bezeichnet und wird als Spaltenvektor \[ \nabla f = (\frac {\partial f}{\partial x_1},\cdots,\frac {\partial f}{\partial x_n})^{T}\] geschrieben.
 Konvex	Eine Menge \(\Omega \subseteq E\) heisst konvex, falls fuer alle \(x, y \in \Omega, \lambda \in [0, 1]\) auch \[\lambda x + (1- \lambda)y\] in \( \Omega\) liegt, \(\Omega\) also zu je zwei Punkten \(x,y \in \Omega\) auch deren Verbindungsstrecke enthaelt.
@@ -57,6 +57,6 @@ Fixpunktiteration	TBD
 Vollstaendiger normierter Vektorraum	Ein normierter Vektorraum \(E\) heisst vollstaendig, oder Banachraum, wenn in ihm jede Cauchyfolge konvergiert.
 Banachraum	Ein normierter Vektorraum \(E\) heisst vollstaendig, oder Banachraum, wenn in ihm jede Cauchyfolge konvergiert.
 Bemerkung 3.2	Der Raum \(C[a,b]\) versehen mit der Supremumsnorm ist vollstaendig.
-Definition 3.3	Sei \(M \subseteq E\). Die Abbildung \(\pho: M \rightarrow E\) heisst Lipschitz-stetig mit der Lipschitz-Konstanten L, wenn fuer alle \(x,y \in M\) \[\|\phi(x)- \phi(y)\| \leq L \|x-y\|\] ist.
+Lipschitz-Stetig	Sei \(M \subseteq E\). Die Abbildung \(\phi: M \rightarrow E\) heisst Lipschitz-stetig mit der Lipschitz-Konstanten L, wenn fuer alle \(x,y \in M\) \[\|\phi(x)- \phi(y)\| \leq L \|x-y\|\] ist.
 Kontraktionssatz	Sei \(M \neq \emptyset\) eine abgeschlossene Teilmenge des Banachraums \(E\) und die Abbildung \(\phi :M \rightarrow M\) sei Lipschitz-stetig mit der Lipschitz-Konstanten \(L < 1.\) Dann besitzt \(\phi\) genau einen Fixpunkt \(x^*=\phi (x^*)\).
 Banach\('\)scher Fixpunktsatz	Sei \(M \neq \emptyset\) eine abgeschlossene Teilmenge des Banachraums \(E\) und die Abbildung \(\phi :M \rightarrow M\) sei Lipschitz-stetig mit der Lipschitz-Konstanten \(L < 1.\) Dann besitzt \(\phi\) genau einen Fixpunkt \(x^*=\phi (x^*)\).
