@@ -1,3 +1,15 @@
+
+lineare Abbildung	Seien \(V\) und \(W\) zwei \(K\)-Vektorraeume. Eine Abbildung \(f: V \rightarrow W\) hei\ss t \(K\)-linear (kurz: linear), wenn fuer alle \(v,w \in V\) und \(\lambda \in K\) die Gleichungen \begin{enumerate} \item \(f(\lambda v)=\lambda f(v)\), \item \(f(v+w) = f(v) + f(w)\), \end{enumerate} gelten. Die Menge aller dieser Abbildungen bezeichnen wir mit \(L(V,W)\).
+Homomorphismus	Seien \(V\) und \(W\) zwei \(K\)-Vektorraeume. Eine Abbildung \(f: V \rightarrow W\) hei\ss t \(K\)-linear (kurz: linear), wenn fuer alle \(v,w \in V\) und \(\lambda \in K\) die Gleichungen \begin{enumerate} \item \(f(\lambda v)=\lambda f(v)\), \item \(f(v+w) = f(v) + f(w)\), \end{enumerate} gelten. Die Menge aller dieser Abbildungen bezeichnen wir mit \(L(V,W)\).
+Isomorphmismus	Ein bijektiver Homomorphismus hei\ss t Isomorphismus.
+Endomorphismus	Eine Abbildung \(f \in L(V,V)\) hei\ss t Endomorphismus.
+Automorphmismus	Ein bijektiver Endomorphismus hei\ss t Automorphismus.
+Kern	Sind \(V\) und \(W\) zwei \(K\)-Vektorraeume und \(f \in L(V,W)\), dann hei\ss t: \[Kern(f):={v \in V|f(v)=0}.\]
+Bild	Sind \(V\) und \(W\) zwei \(K\)-Vektorraeume und \(f \in L(V,W)\), dann hei\ss t: \[Bild(f):={f(v)|v \in V} \subseteq W.\]
+Urbild	Sind \(V\) und \(W\) zwei \(K\)-Vektorraeume und \(f \in L(V,W)\). Dann definiert man das Urbild von \(w\) in \(V\) als \[f^{-1}(w):=f^{-1}({w})={w \in V|f(v)=w}.\]
+
+
+
 Eigenwert	Sei \(V\) ein \(K\)-Vektorraum und sei \(f \in L(V,V).\) Falls fuer ein \(v \in V \setminus \{0\}\)  und ein \(\lambda \in K\) die Gleichung \[f(v)=\lambda v\] gilt, so nennt man \(\lambda\) einen Eigenwert von \(f\) und \(v\) einen zum Eigenwert \(\lambda\) gehoerenden Eigenvektor von \(f\).
 Eigenvektor	Sei \(V\) ein \(K\)-Vektorraum und sei \(f \in L(V,V).\) Falls fuer ein \(v \in V \setminus \{0\}\)  und ein \(\lambda \in K\) die Gleichung \[f(v)=\lambda v\] gilt, so nennt man \(\lambda\) einen Eigenwert von \(f\) und \(v\) einen zum Eigenwert \(\lambda\) gehoerenden Eigenvektor von \(f\).
 Eigenraum	Sind \(V\) ein \(K\)-Vektorraum und \(\lambda \in K\) ein Eigenwert von \(f \in L(V,V)\), so hei\ss t der Unterraum \[V_f(\lambda):= Kern(\lambda Id_V - f)\] der Eigenraum von \(f\) zum Eigenwert \(\lambda\).
@@ -16,8 +28,3 @@ Teiler	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Wen
 teilerfremde Polynome	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Zwei Polynome \(p,s \in K[t]\) hei\ss en teilerfremd, wenn aus \(q|p\) und \(q|s\) fuer ein \(q \in K[t]\) stets folgt, dass \(q\) ein kostantes Polynom ist.
 Irreduzibel/Reduzibel	Sei \(K\) ein Koerper und \(K[t]\) der Ring der Polynome ueber \(K\). Ein nicht-konstantes Polynom \(p \in K[t]\) hei\ss t irreduzibel (ueber \(K\)), wenn aus \(p=s*q\) fuer zwei Polynome \(s,q \in K[t]\) folgt, dass \(s\) oder \(q\) ein konstantes Polynom ist. Falls es zwei nicht-konstante Polynome \(s,q \in K[t]\) mit \(p=s*q\) gibt, so hei\ss t \(p\) reduzibel (ueber K)
 Vielfachheit	Seien \(p \in K[t]\) und \(\lambda \in K\) eine Nullstelle von \(p\). Dann ist die Vielfachheit der Nullstelle \(\lambda\) die eindeutig bestimmte natuerliche Zahl \(m\), so dass \(p=(t-\lambda )^m*q\) fuer ein Polynom \(q \in K[t]\) mit \(q(\lambda) \neq 0\) ist.
-
-
-
-Charakteristisches Polynom	Sind \(R\) ein kommutativer Ring mit Eins und \(A \in R^{n,n}\), dann hei\ss t \[P_A:=det(tI_n - A) \in R[t]\] das charakteristische Polynom von \(A\).
-Spur einer Matrix	Sei \(K\) ein Koerper und \( A \in K^{n,n}\). Dann bezeichnet man die Summe der Hauptdiagonalelemente von A als Spur von A. \[Spur(A):= \sum_{i=1}^n a_{ii}.\]
