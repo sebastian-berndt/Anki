@@ -1,12 +1,12 @@
 
 lineare Abbildung	Seien \(V\) und \(W\) zwei \(K\)-Vektorraeume. Eine Abbildung \(f: V \rightarrow W\) hei\ss t \(K\)-linear (kurz: linear), wenn fuer alle \(v,w \in V\) und \(\lambda \in K\) die Gleichungen \begin{enumerate} \item \(f(\lambda v)=\lambda f(v)\), \item \(f(v+w) = f(v) + f(w)\), \end{enumerate} gelten. Die Menge aller dieser Abbildungen bezeichnen wir mit \(L(V,W)\).
-Homomorphismus	Seien \(V\) und \(W\) zwei \(K\)-Vektorraeume. Eine Abbildung \(f: V \rightarrow W\) hei\ss t \(K\)-linear (kurz: linear), wenn fuer alle \(v,w \in V\) und \(\lambda \in K\) die Gleichungen \begin{enumerate} \item \(f(\lambda v)=\lambda f(v)\), \item \(f(v+w) = f(v) + f(w)\), \end{enumerate} gelten. Die Menge aller dieser Abbildungen bezeichnen wir mit \(L(V,W)\).
+Homomorphismus	Eine lineare Abbildung \(f: W \rightarrow V\) wird Homomorphismus genannt.
 Isomorphmismus	Ein bijektiver Homomorphismus hei\ss t Isomorphismus.
 Endomorphismus	Eine Abbildung \(f \in L(V,V)\) hei\ss t Endomorphismus.
 Automorphmismus	Ein bijektiver Endomorphismus hei\ss t Automorphismus.
-Kern	Sind \(V\) und \(W\) zwei \(K\)-Vektorraeume und \(f \in L(V,W)\), dann hei\ss t: \[Kern(f):={v \in V|f(v)=0}.\]
-Bild	Sind \(V\) und \(W\) zwei \(K\)-Vektorraeume und \(f \in L(V,W)\), dann hei\ss t: \[Bild(f):={f(v)|v \in V} \subseteq W.\]
-Urbild	Sind \(V\) und \(W\) zwei \(K\)-Vektorraeume und \(f \in L(V,W)\). Dann definiert man das Urbild von \(w\) in \(V\) als \[f^{-1}(w):=f^{-1}({w})={w \in V|f(v)=w}.\]
+Kern	Sind \(V\) und \(W\) zwei \(K\)-Vektorraeume und \(f \in L(V,W)\), dann hei\ss t: \[Kern(f):=\{v \in V|f(v)=0\}.\]
+Bild	Sind \(V\) und \(W\) zwei \(K\)-Vektorraeume und \(f \in L(V,W)\), dann hei\ss t: \[Bild(f):=\{f(v)|v \in V\} \subseteq W.\]
+Urbild	Sind \(V\) und \(W\) zwei \(K\)-Vektorraeume und \(f \in L(V,W)\). Dann definiert man das Urbild von \(w\) in \(V\) als \[f^{-1}(w):=f^{-1}({w})=\{w \in V|f(v)=w\}.\]
 
 
 
