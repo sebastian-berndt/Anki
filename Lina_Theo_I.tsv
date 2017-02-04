@@ -2,13 +2,14 @@ Satz 3.2	Fuer jede Gruppe \((G,\oplus)\) gelten: \begin{enumerate} \item Ist \(e
 Satz 3.8	Sei \((R,\oplus, \otimes)\) ein Ring. Dann gilt: \begin{enumerate} \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in R\) \item \(a \otimes (-b) = -(a \otimes b) = (-a) \otimes b\) und \((-a) \otimes (-b) = a \otimes b\)  fuer alle \(a,b \in R\)\end{enumerate}
 Satz 3.11	Sei \((R,\oplus,\otimes)\) ein Ring mit Eins. Dann gilt: \begin{enumerate} \item Falls zu \(a \in R\) ein inverses Element (bezueglich \(\otimes\)) existiert, so ist dieses eindeutig. Man bezeichnet es dann mit \(a^{-1}\). \item Sind \(a,b \in R\) invertierbar, so ist \(a \otimes b\) invertierbar und \[(a \otimes b)^{-1}=b^{-1} \otimes a^{-1}.\]\end{enumerate}
 Lemma 3.14	Fuer jeden Koerper \(K\) gelten folgende Aussagen: \begin{enumerate} \item \(K\) hat mindestens zwei Elemente. \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in K.\) \item \(a \otimes b = a \otimes c\) und \(a \neq 0\) impliziert \(b = c\) fuer alle, \(a,b,c \in K.\) \item \(a \otimes b = 0\) impliziert \( a = 0\) oder \(b=0\), fuer alle \(a,b \in K.\)\end{enumerate}
-
+A 3.14	Sei \((R,+,*)\) ein Ring. Eine Teilmenge \(S \subseteq R\) hei\ss t Unterring von \(R\), wenn \((S,+,*)\) ein Ring ist. Dann ist \(S\) genau dann ein Unterring von \(R\), wenn gilt: \begin{enumerate} \item \(S \subseteq R,\) \item \(0_R \in S,\) \item Fuer alle \(r,s \in S\) sind \(r+s \in S\) und \(r*s \in S\), \item Fuer jedes \(r \in S\) ist \(-r \in S\). \end{enumerate}
+A 16	Sei \((K,+,*)\) ein Koerper. Dann ist \((L,+,*)\) genau dann ein Teilkoerper von \((K,+,*)\), wenn gilt: \begin{enumerate} \item \(L \subseteq K,\) \item \(0_K, 1_K \in L,\) \item \(a + b \in L\) und \(a * b \in L\) fuer alle \(a,b \in L,\) \item \(-a \in L\) fuer alle \(a \in L,\) \item \(a^{-1} \in L\) fuer alle \(a \in L \setminus \{0\}.\) \end{enumerate}
 
 
 Lemma 8.3	Sei \((R,+,*)\) ein Ring mit eins. Fuer \(A \in R^{n,n}\) gilt \(P_A=P_{A^T}\) und \[P_A = t^n -\alpha_{n-1}t^{n-1}+\ldots+(-1)^{n-1} \alpha_1 t + (-1)^n \alpha_0\] mit \(\alpha_{n-1}=\sum_{i=1}^n a_{ii}\) und \(\alpha _0 = \det (A)\).s
 
 
 
-
-
+Beispiel	Nicht-Kommutative Gruppe:	tbd
+Beispiel Kommutative Gruppe:	\((\mathbb{Z},+),(\mathbb{Q},+),(\mathbb{R},+)\) sind kommutative Gruppen.
 Beispiel Kommutativer Ring mit Eins:	\((\mathbb{N}, \oplus, \otimes)\)
