@@ -1,5 +1,5 @@
 Gruppeneigenschaften	Fuer jede Gruppe \((G,\oplus)\) gilt: \begin{enumerate} \item Ist \(e \in G\) ein neutrales Element und sind \(a,\tilde{a} \in G\) mit \( \tilde{a} \oplus a = e\), so gilt auch \(a \oplus \tilde{a} = e\). \item Ist \(e \in G\) ein linksneutrales Element und ist \(a \in G\), so gilt auch \[a \oplus e = a.\] \item \(G\) enthaelt genau ein neutrales Element. \item Zu jedem \(a \in G\) gibt es genau ein inverses Element. \end{enumerate}
-Charakterisierung Untergruppe	\((H, \oplus)\) ist genau dann eine Untergruppe der Gruppe \((G,\oplus)\), wenn Folgendes gilt: \begin{enumerate} \item \(\emptyset \neq H \subseteq G.\) \item \(a \oplus b \in H\) fuer alle \(a,b \in H.\) \item Fuer jedes \(a \in H\) ist sein inverses Element \(\tilde{a} \in H.\)
+Charakterisierung Untergruppe	\((H, \oplus)\) ist genau dann eine Untergruppe der Gruppe \((G,\oplus)\), wenn Folgendes gilt: \begin{enumerate} \item \(\emptyset \neq H \subseteq G.\) \item \(a \oplus b \in H\) fuer alle \(a,b \in H.\) \item Fuer jedes \(a \in H\) ist sein inverses Element \(\tilde{a} \in H.\)  \end{enumerate}
 Ringeigenschaften	Sei \((R,\oplus, \otimes)\) ein Ring. Dann gilt: \begin{enumerate} \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in R\) \item \(a \otimes (-b) = -(a \otimes b) = (-a) \otimes b\) und \((-a) \otimes (-b) = a \otimes b\)  fuer alle \(a,b \in R\)\end{enumerate}
 Satz 3.11	Sei \((R,\oplus,\otimes)\) ein Ring mit Eins. Dann gilt: \begin{enumerate} \item Falls zu \(a \in R\) ein inverses Element (bezueglich \(\otimes\)) existiert, so ist dieses eindeutig. Man bezeichnet es dann mit \(a^{-1}\). \item Sind \(a,b \in R\) invertierbar, so ist \(a \otimes b\) invertierbar und \[(a \otimes b)^{-1}=b^{-1} \otimes a^{-1}.\]\end{enumerate}
 Koerpereigenschaften	Fuer jeden Koerper \(K\) gelten folgende Aussagen: \begin{enumerate} \item \(K\) hat mindestens zwei Elemente. \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in K.\) \item \(a \otimes b = a \otimes c\) und \(a \neq 0\) impliziert \(b = c\) fuer alle, \(a,b,c \in K.\) \item \(a \otimes b = 0\) impliziert \( a = 0\) oder \(b=0\), fuer alle \(a,b \in K.\)\end{enumerate}
@@ -13,6 +13,6 @@ Lemma 8.3	Sei \((R,+,*)\) ein Ring mit eins. Fuer \(A \in R^{n,n}\) gilt \(P_A=P
 
 
 
-Beispiel	Nicht-Kommutative Gruppe:	(K^{n,n},*)
+Beispiel Nicht-Kommutative Gruppe:	(K^{n,n},*)
 Beispiel Kommutative Gruppe:	\((\mathbb{Z},+),(\mathbb{Q},+),(\mathbb{R},+)\) sind kommutative Gruppen.
 Beispiel Kommutativer Ring mit Eins:	\((\mathbb{N}, \oplus, \otimes)\)
