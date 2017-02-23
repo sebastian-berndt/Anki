@@ -1,18 +1,26 @@
 Gruppeneigenschaften	Fuer jede Gruppe \((G,\oplus)\) gilt: \begin{enumerate} \item Ist \(e \in G\) ein neutrales Element und sind \(a,\tilde{a} \in G\) mit \( \tilde{a} \oplus a = e\), so gilt auch \(a \oplus \tilde{a} = e\). \item Ist \(e \in G\) ein linksneutrales Element und ist \(a \in G\), so gilt auch \[a \oplus e = a.\] \item \(G\) enthaelt genau ein neutrales Element. \item Zu jedem \(a \in G\) gibt es genau ein inverses Element. \end{enumerate}
-Charakterisierung Untergruppe	\((H, \oplus)\) ist genau dann eine Untergruppe der Gruppe \((G,\oplus)\), wenn Folgendes gilt: \begin{enumerate} \item \(\emptyset \neq H \subseteq G.\) \item \(a \oplus b \in H\) fuer alle \(a,b \in H.\) \item Fuer jedes \(a \in H\) ist sein inverses Element \(\tilde{a} \in H.\)  \end{enumerate}
+Untergruppenkriterium	\((H, \oplus)\) ist genau dann eine Untergruppe der Gruppe \((G,\oplus)\), wenn Folgendes gilt: \begin{enumerate} \item \(\emptyset \neq H \subseteq G.\) \item \(a \oplus b \in H\) fuer alle \(a,b \in H.\) \item Fuer jedes \(a \in H\) ist sein inverses Element \(\tilde{a} \in H.\)  \end{enumerate}
 Ringeigenschaften	Sei \((R,\oplus, \otimes)\) ein Ring. Dann gilt: \begin{enumerate} \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in R\) \item \(a \otimes (-b) = -(a \otimes b) = (-a) \otimes b\) und \((-a) \otimes (-b) = a \otimes b\)  fuer alle \(a,b \in R\)\end{enumerate}
 Satz 3.11	Sei \((R,\oplus,\otimes)\) ein Ring mit Eins. Dann gilt: \begin{enumerate} \item Falls zu \(a \in R\) ein inverses Element (bezueglich \(\otimes\)) existiert, so ist dieses eindeutig. Man bezeichnet es dann mit \(a^{-1}\). \item Sind \(a,b \in R\) invertierbar, so ist \(a \otimes b\) invertierbar und \[(a \otimes b)^{-1}=b^{-1} \otimes a^{-1}.\]\end{enumerate}
 Koerpereigenschaften	Fuer jeden Koerper \(K\) gelten folgende Aussagen: \begin{enumerate} \item \(K\) hat mindestens zwei Elemente. \item \(0 \otimes a = a \otimes 0 = 0\) fuer alle \(a \in K.\) \item \(a \otimes b = a \otimes c\) und \(a \neq 0\) impliziert \(b = c\) fuer alle, \(a,b,c \in K.\) \item \(a \otimes b = 0\) impliziert \( a = 0\) oder \(b=0\), fuer alle \(a,b \in K.\)\end{enumerate}
-Charakterisierung Unterring	Sei \((R,+,*)\) ein Ring. Eine Teilmenge \(S \subseteq R\) hei\ss t Unterring von \(R\), wenn \((S,+,*)\) ein Ring ist. Dann ist \(S\) genau dann ein Unterring von \(R\), wenn gilt: \begin{enumerate} \item \(S \subseteq R,\) \item \(0_R \in S,\) \item Fuer alle \(r,s \in S\) sind \(r+s \in S\) und \(r*s \in S\), \item Fuer jedes \(r \in S\) ist \(-r \in S\). \end{enumerate}
-Charakterisierung Teilkorper	Sei \((K,+,*)\) ein Koerper. Dann ist \((L,+,*)\) genau dann ein Teilkoerper von \((K,+,*)\), wenn gilt: \begin{enumerate} \item \(L \subseteq K,\) \item \(0_K, 1_K \in L,\) \item \(a + b \in L\) und \(a * b \in L\) fuer alle \(a,b \in L,\) \item \(-a \in L\) fuer alle \(a \in L,\) \item \(a^{-1} \in L\) fuer alle \(a \in L \setminus \{0\}.\) \end{enumerate}
+Unterringkriterium	Sei \((R,+,*)\) ein Ring. Eine Teilmenge \(S \subseteq R\) hei\ss t Unterring von \(R\), wenn \((S,+,*)\) ein Ring ist. Dann ist \(S\) genau dann ein Unterring von \(R\), wenn gilt: \begin{enumerate} \item \(S \subseteq R,\) \item \(0_R \in S,\) \item Fuer alle \(r,s \in S\) sind \(r+s \in S\) und \(r*s \in S\), \item Fuer jedes \(r \in S\) ist \(-r \in S\). \end{enumerate}
+Teilkorperkriterium	Sei \((K,+,*)\) ein Koerper. Dann ist \((L,+,*)\) genau dann ein Teilkoerper von \((K,+,*)\), wenn gilt: \begin{enumerate} \item \(L \subseteq K,\) \item \(0_K, 1_K \in L,\) \item \(a + b \in L\) und \(a * b \in L\) fuer alle \(a,b \in L,\) \item \(-a \in L\) fuer alle \(a \in L,\) \item \(a^{-1} \in L\) fuer alle \(a \in L \setminus \{0\}.\) \end{enumerate}
 
 Rechenregeln fuer die Matrizenmultiplikation	Fuer \(A,\hat{A} \in R^{n,m}, B, \hat{B} \in R^{m,l}\) und \(C \in R^{l,k}\) gelten: \begin{description} \item[Assoziativitaet] \(A*(B*C)=(A*B)*C\) \item[rechtsdistributiv] \((A+\hat{A})*B=A*B+\hat{A}*B\) \item[linksdistributiv] \(A*(B+\hat{B})=A*B+A*\hat{B}\) \item[to-be-named] \(I_n*A=A*I_m=A\) \end{description}
 Rechenregeln fuer die skalare Matrix-Multiplikation	Fuer \(A,\hat{A} \in R^{n,m}, B, \hat{B} \in R^{m,l}\) und \(C \in R^{l,k}\) gelten: \begin{description} \item[Assoziativitaet] \((\lambda \mu)\cdot A=\lambda \cdot (\mu \cdot A)\) \item[rechtsdistributiv] \((\lambda +\mu)\cdot A = \lambda \cdot A + \mu \cdot A\) \item[linksdistributiv] \(\lambda \cdot (A+B)=\lambda \cdot A+\lambda \cdot B\) \item[to-be-named] \((\lambda \cdot A) *C=\lambda \cdot(A*C)=A*(\lambda \cdot C)\) \end{description}
 
+
+
+Untervektorraumkriterium	Sei \((U,+,\cdot)\) ist genau dann ein Unterraum von \((V,+,\cdot)\), wenn folgende Eigenschaften gelten: \begin{enumerate} \item \(U \neq \emptyset\) \item \(v+w \in U\) fuer alle \(v,w \in U\) \item \(\lambda v \in U\) fuer alle \(\lambda \in K\) und \(v \in U\) \end{enumerate}
+
+
+
 Lemma 8.3	Sei \((R,+,*)\) ein Ring mit eins. Fuer \(A \in R^{n,n}\) gilt \(P_A=P_{A^T}\) und \[P_A = t^n -\alpha_{n-1}t^{n-1}+\ldots+(-1)^{n-1} \alpha_1 t + (-1)^n \alpha_0\] mit \(\alpha_{n-1}=\sum_{i=1}^n a_{ii}\) und \(\alpha _0 = \det (A)\).s
+
 
 
 
 Beispiel Nicht-Kommutative Gruppe:	(K^{n,n},*)
 Beispiel Kommutative Gruppe:	\((\mathbb{Z},+),(\mathbb{Q},+),(\mathbb{R},+)\) sind kommutative Gruppen.
 Beispiel Kommutativer Ring mit Eins:	\((\mathbb{N}, \oplus, \otimes)\)
+Basis des Vektorraums \(V=\{0\}\)	Die leere Menge \(\emptyset\) ist die Basis des Vektorraums \(V=\{0\}\).

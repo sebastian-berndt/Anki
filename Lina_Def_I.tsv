@@ -22,3 +22,14 @@ Teilkoerper	Sei \((K, \oplus, \otimes)\) ein Koerper und \(L \subseteq K\). Ist 
 
 Matrix-Multiplikation	Sei \((R,+,\cdot)\) ein kommutativer Ring mit Eins. Die Multiplikation zweier Matrizen ist definiert als: \[*:R^{n,m} \times R^{m,s} \rightarrow R^{n,s}, \quad (A,B) \mapsto A*B=[c_{ij}], \quad c_{ij}:=\sum_{k=1}^m a_{ik}b_{bj}.\]
 Skalare Matrix-Multiplikation	Sei \((R,+,\cdot)\) ein kommutativer Ring mit Eins. Die Multiplikation eines Skalars und einer Matrix ist definiert als: \[\cdot: R \times R^{n,m} \rightarrow R^{n,m}, \quad (\lambda, A) \mapsto \lambda \cdot A:=[\lambda a_{ij}].\]
+
+
+Vektorraum	Sei \(K\) ein Koerper. Ein Vektorraum ueber \(K\) (kurz: \(K\)-Vektorraum) ist eine Menge \(V\) mit zwei Abbildungen, \begin{description} \item[(Addition)] \(+:V \times V \rightarrow V, \quad (v,w) \mapsto v+w,\) \item[(Skalare Multiplikation)] \(\cdot :K \times V \rightarrow V, \quad (\lambda,v) \mapsto \lambda \cdot v,\)\end{description} fuer die folgende Regeln erfuellt sind: \begin{enumerate} \item \((V,+)\) ist eine kommutative Gruppe. \item Fuer alle \(v,w \in V\) und \(\lambda, \mu \in K\) gelten: \begin{enumerate} \item \(\lambda \cdot (\mu \cdot v)=(\lambda \mu) \cdot v.\) \item \(1 \cdot v = v\) \item \(\lambda \cdot (v+w)=\lambda \cdot v + \lambda \cdot w.\) \item \((\lambda + \mu) \cdot v = \lambda \cdot v + \mu \cdot v.\) \end{enumerate}\end{enumerate}
+Unterraum	Sei \((V,+,\cdot)\) ein \(K\)-Vektorraum und sei \(U \subseteq V.\) Ist \((U,+,\cdot)\) ein \(K\)-Vektorraum, so nennt man diesen einen Unterraum von \((V,+,\cdot)\).
+Lineare Unabhaengigkeit	Sei \(V\) ein \(K\)-Vektorraum. Die Vektoren \(v_1,\cdots,v_n \in V\) hei\ss en linear unabhaengig, wenn aus \(\sum_{i=1}^n \lambda_i v_i =0\) mit \(\lambda_1,\cdots,\lambda_n \in K\) folgt, dass \(\lambda_1,\cdots,\lambda_n \in K,\) die nicht alle gleich Null sind, so hei\ss en \(v_1,\cdots,v_n\) linear abhaengig.
+Basis eines Vektorraums	Sei \(V\) ein \(K\)-Vektorraum. Eine Menge \(\{v_1,\ldots,v_n\} \subseteq V\) hei\ss t Basis von \(V\), wenn gilt: \begin{enumerate} \item \(v_1,\ldots,v_n\) sind linear unabhaengig. \item \(v_1,\ldots,v_n\) erzeugen den Vektorraum \(V\), (d.h. \(\text{Span} \{v_1,\cdots, v_n\}=V\))\end{enumerate}
+Standardbasis/kanonische Basis des Vektorraums \(K^{n,m}\)	tbd
+Einheitsvektoren	tbd
+endlichdimensionale Vektorraeume	tbd
+Dimension eines Vektorraums	tbd
+Koordinaten	tbd
