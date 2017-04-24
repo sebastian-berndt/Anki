@@ -25,7 +25,6 @@ Korollar 11.21	Fuer eine Sesquilinearform s auf dem \(\mathbb{C}\)-Vektorraum \(
 Lemma 11.23	Fuer \(A, \widehat{A} \in \mathbb{C}^{n,m}, B \in \mathbb{C}^{m,l}\) und \(\lambda \in \mathbb{C}\) gelten: \begin{enumerate} \item \((A^H)^H = A,\) \item \((A + \widehat{A})^H = A^H + \widehat{A}^H.\) \item \((\lambda A)^H = \overline{\lambda}A^H,\) \item \((AB)^H=B^HA^H.\) \end{enumerate}
 
 
-
 Lemma 14.4	Sind \(V\) ein \(K\)-Vektorraum und \(\lambda \in K\) ein Eigenwert von \(f \in L(V,V)\), so ist \(V_f(\lambda)\) ein \(f\)-invarianter Unterraum von \(V\).
 Lemma 14.5	Sind \(V\) ein endlichdimensionaler \(K\)-Vektorraum und \(f \in L(V,V)\), dann sind folgende Aussagen aequivalent: \begin{enumerate} \item \(\lambda \in K\) ist ein Eigenwert von \(f\). \item \(\lambda \in K\) ist ein Eigenwert der Matrix \([f]_{B,B}\) fuer jede Basis \(B\) von \(V\). \end{enumerate}
 Satz 14.7	Sind \(n \in \mathbb{N}, V\) ein n-dimenionaler \(K\)-Vektorraum mit Basis \(B\) und \(f \in L(V,V)\). Das Charakteristische Polynom \(P_f\) ist stets ein monisches Polynom mit \[Grad(P_f)=n=dim(V).\]
@@ -40,7 +39,6 @@ Korollar 14.18	Sei \(V\) ein endlichdimensionaler euklidischer oder unitaerer Ve
 Korollar 14.20	Ist \(V\) ein endlichdimensionaler unitaerer Vektorraum, so ist jeder Endomorphmismus auf \(V\) unitaer triangulierbar, d.h. fuer jedes \(f \in L(V,V)\) gibt es eine Orthonormalbasis \(B\) von \(V\), so dass \([f]_{B,B}\) eine obere Dreiecksmatrix ist.
 Korollar 14.21	Ist \(A \in \mathbb{C}^{n,n}\), so gibt es eine unitaere Matrix \(Q \in C^{n,n}\) und eine obere Dreiecksmatrix \(R \in \mathbb{C}^{n,n}\) mit \(A=QRQ^H\). Die Matrix \(R\) nennen wir eine Schur-Form von \(A\).
 Lemma 14.22	Sei \(A \in \mathbb{C}^{n,n}\) mit \(n\) paarweise verschiedenen Eigenwerten und seien \(R_1, R_2 \in \mathbb{C}^{n,n}\) zwei Schur-Formen von \(A\). Sind die Diagonalen von \(R_1\) und \(R_2\) gleich, dann gilt \(R_1 = UR_2U^H\) fuer eine unitaere Diagonalmatrix \(U\).
-
 
 
 Lemma 15.1	Fuer zwei Polynome \(p, q \in K[t]\) gilt: \begin{enumerate} \item Grad\((p+q) \leq \max\{\)Grad\((p)\),Grad\((q)\)\(\}\) \item Grad\((p*q)=\)Grad\((p) + \)Grad\((q)\).\end{enumerate}

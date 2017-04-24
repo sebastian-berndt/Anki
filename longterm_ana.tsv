@@ -1,0 +1,18 @@
+Abgeschlossen	Sei \((X,d)\) ein metrischer Raum, \(a \in X\) und \(T \subseteq X\). Dann hei\ss t \(T\) abgeschlossen, falls \(X\setminus T\) (das Komplement von \(T\) in \(X\)) offen ist.
+Abgeschlossene Huelle	 Sei \((X,d)\) ein metrischer Raum und \(T \subseteq X\). \[\overline{T}:=X \setminus (x \setminus T)^{\circ}\] hei\ss t Abscshluss oder abgeschlossene Huelle von \(T\).
+Abschluss	 Sei \((X,d)\) ein metrischer Raum und \(T \subseteq X\). \[\overline{T}:=X \setminus (x \setminus T)^{\circ}\] hei\ss t Abscshluss oder abgeschlossene Huelle von \(T\).
+Beispiel offener/abgeschlossenere Mengen	Sei \((X,d)\) ein metrischer Raum, \(a \in X\) und \(\epsilon > 0\). \begin{enumerate} \item \(X\) und \(\emptyset\) sind sowohl offen, als auch abgeschlossen. \item \(\epsilon\)-Umgebungen sind offen. \item Fuer \(d\) als diskrete Metrik auf \(X\) sind alle Teilmengen von \(X\) offen und abgeschlossen.\end{enumerate}
+Diskrete Metrik	Auf jeder Menge \( X \neq \emptyset \) wird durch \[ d(x,y)=\begin{cases} 1, & x \neq y \\ 0, & x=y\end{cases}\] eine Metrik festgelegt, die man \(Diskrete Metrik\) nennt.
+Euklidische Norm	Die Euklidische Norm ist eine Norm auf dem \(\mathbb{R}^{n}\). \[\|x\|_{2}:= \Big( \sum_{i=1}^{n}|x_{i}|^{2}\Big) ^{\frac{1}{2}}\]
+Inneres Kern	Sei \((X,d)\) ein metrischer Raum und \(T \subseteq X\). \(T^{\circ}:=\{x \in T | x \text{ ist innerer Punkt von } T \}\) hei\ss t offener Kern oder Inneres von \(T\).
+Maximumsnorm	Fuer \(\mathbb{R}^n:=\{(x_1,\dots,x_n)|x_i \in \mathbb{R}\} \) ist \[\|x\|_\infty :=\max_{i=1,\dots,n} |x_i|,\] eine Norm auf dem \(\mathbb{R}^n\), genannt Maximumsnorm.
+Minkowski-Ungleichung	\(\|x+y\|_{p} \leq \|x\|_{p} + \|y\|_{p}\), \quad \(x,y \in \mathbb{R}^{n}\)
+Offen	Sei \((X,d)\) ein metrischer Raum, \(a \in X\) und \(T \subseteq X\). Dann hei\ss t \(T\) offen falls jedes \(x \in T\) ein innerer Punkt von \(T\) ist.
+Offener Kern	Sei \((X,d)\) ein metrischer Raum und \(T \subseteq X\). \(T^{\circ}:=\{x \in T | x \text{ ist innerer Punkt von } T \}\) hei\ss t offener Kern oder Inneres von \(T\).
+Rand	Sei \((X,d)\) ein metrischer Raum und \(T \subseteq X\). \[\partial T:=\overline{T} \setminus T^{\circ}\] hei\ss t Rand von \(T\).
+Randpunkt	Die Elemente des Randes hei\ss en Randpunkte.
+Umgebung	Sei \((X,d)\) ein metrischer Raum, \(a \in X\) und \(T \subseteq X\). Dann hei\ss t \(T\) Umgebung von \(a\) und \(a\) hei\ss t innerer Punkt von \(T\), falls es eine \(\epsilon\)-Umgebung von \(a\) gibt, die noch ganz in \(T\) enthalten ist, d.h. es gibt \(\epsilon >0\), so dass \[U_{\epsilon}(a) \subseteq T.\]
+Unendlichnorm	Fuer \(\mathbb{R}^n:=\{(x_1,\dots,x_n)|x_i \in \mathbb{R}\} \) ist \[\|x\|_\infty :=\max_{i=1,\dots,n} |x_i|,\] eine Norm auf dem \(\mathbb{R}^n\), genannt Maximumsnorm.
+\(1\)-Norm	Fuer \(\mathbb{R}^n:=\{(x_1,\dots,x_n)|x_i \in \mathbb{R}\} \) ist \[\|x\|_1 :=\sum \limits_{i=1} \limits^n |x_i|\] eine Norm auf dem \(\mathbb{R}^n\), genannt 1-Norm
+\(\epsilon\)-Umgebung	Sei \((X,d)\) ein metrischer Raum \(a \in C\) und \(T \subseteq X\). Sei \(\epsilon > 0.\) Dann hei\ss t \[U_{\epsilon}(a):={x \in X|d(a,x)<x}\] \(\epsilon\)-Umgebung von \(a\) (oder auch offene Kugel um \(a\) mit Radius \(\epsilon\))
+\(p\)-Norm	Fuer alle \(p > 1\) ist durch den Ausdruck \[\|x\|_{p}:= \Big( \sum_{i=1}^{n}|x_{i}|^{p}\Big) ^{\frac{1}{p}}\] eine Norm auf dem \(\mathbb{R}^{n}\) gegeben, die sogenannte \(p\)-Norm.

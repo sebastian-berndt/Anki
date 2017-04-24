@@ -1,4 +1,6 @@
-Front	Back
+
+
+
 Satz 2.2	Ist \(f: \Omega \subseteq E \rightarrow F\) in \(x_0\) differenzierbar, so ist die Ableitung von \(f\) in \(x_0\) eindeutig bestimmt. Sie wird mit \(f'(x_0)\) bezeichnet.
 Satz 2.4	Ist \(f\) in \(x_0\) differenzierbar und \(f'(x_0)\) stetig, so ist \(f\) in \(x_0\) stetig.
 Satz 2.6	Eine lineare Abbildung \(A: E \rightarrow F\) ist genau dann auf ganz \(E\) stetig, wenn sie in irgendeinem \(x_0 \in E\) stetig ist, und dies ist genau dann der Fall, wenn \(A\) beschraenkt ist, das heißt, es eine Konstante \(C\) mit \[\|Av\|_{F} \leq C\|v\|_{E}\] fuer alle \(v \in E\) gibt.
