@@ -1,2 +1,7 @@
 Aequivalenz Offen	Sei \((X,d)\) ein metrischer Raum, sowie \(T \subseteq X\) und sei \(d_{T}\) die durch \(d\) induzierte Metrik auf \(T\). Dann sind folgende Aussagen aequivalent: \begin{enumerate} \item \(V \subseteq T\) ist offen bzgl. \(d_{T}.\) \item Es gibt eine bzgl. \(d\) offene Menge \(U \subseteq X\), so dass \(V=T \cap U.\) \end{enumerate}
 Aequivalent Abgeschlossen	Sei \((X,d)\) ein metrischer Raum, sowie \(T \subseteq X\) und sei \(d_{T}\) die durch \(d\) induzierte Metrik auf \(T\). Dann sind folgende Aussagen aequivalent: \begin{enumerate} \item \(V \subseteq T\) ist abgeschlossen bzgl. \(d_{T}.\) \item Es gibt eine bzgl. \(d\) abgeschlossene Menge \(U \subseteq X\), so dass \(V=T \cap U.\) \end{enumerate}
+
+
+
+Aussere Ma\ss	Das aeu\ss ere Mass \( \mu^{\ast}(A)\) einer beliebigen Teilmenge \(A \subseteq \Omega\) ist definiert als \[\mu^{\ast}:=inf \sum_{k=1}^{\infty} \mu(E_{K}),\] wobei das Infimum ueber alle Folgen von Elementarmengen \(E_{K}\) zu nehmen ist, deren Vereinigung \(A\) ueberdeckt.
+Satz 1.21	Die Menge \(M\) der endlich messbaren Mengen bildet einen Ring. Das aussere Mass ist additiv auf M.
