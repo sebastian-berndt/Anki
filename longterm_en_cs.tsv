@@ -6,19 +6,26 @@ Class	In set theory and its applications throughout mathematics, a class is a co
 Clique Number	The clique number \(\omega(G)\) of a graph \(G\) is the number of vertices in a maximum clique in \(G\).
 Clique Problem	In graph theory, the clique problem is the computational problem of finding cliques/complete subgraphs in a graph.
 Clique/Complete Subgraph	A clique or complete subgraph \(C\), in an undirected graph \(G = (V, E)\) is a subset of the vertices, \(C \subseteq V\), such that every two distinct vertices are adjacent.
+Closed Walk	A closed walk consists of a sequence of vertices starting and ending at the same vertex, with each two consecutive vertices in the sequence adjacent to each other in the graph. In a directed graph, each edge must be traversed by the walk so that the edge must be oriented from the earlier of two consecutive vertices to the later of the two vertices in the sequence.
 Complete Graph	In graph theory, a complete graph is a simple undirected graph in which every pair of distinct vertices is connected by a unique edge.
 Component/Connected Component	In graph theory, a connected component (or just component) of an undirected graph is a subgraph in which any two vertices are connected to each other by paths, and which is connected to no additional vertices in the supergraph.
 Condition \(P(x)\) holds for sufficiently large \(x\)	A condition \(P(x)\) holds for sufficiently large \(x \in \mathbb{R}\) if there exists some \(X \in \mathbb{R}\) such that \(P(x)\) holds for every \(x > X\). \[\exists x \in \mathbb{R}: \forall x \in \mathbb{R}: x \geq X \implies P(x)\]
+Cycle	In graph theory, a cycle is a path of edges and vertices wherein a vertex is reachable from itself.
 Degree/Valency of a Vertex	In graph theory, the degree/valency of a vertex of a graph is the number of edges incident to the vertex, with loops counted twice.
-Directed acyclic graph (DAG)	In mathematics and computer science, a directed acyclic graph, is a finite directed graph with no directed cycles.
+Density of an Undirected Simple Graph 	For undirected simple graph density is defined as: \[D=\dfrac{2|E|}{|V|(|V|-1)}\]
+Directed Acyclic Graph (DAG)	In mathematics and computer science, a directed acyclic graph, is a finite directed graph with no directed cycles.
 Directed Simple Graph Density	For directed simple graph density is defined as: \[D=\dfrac{|E|}{|V|(|V|-1)}\]
 Dominating Set	In graph theory, a dominating set for a graph \(G = (V, E)\) is a subset \(D\) of \(V\) such that every vertex not in \(D\) is adjacent to at least one member of \(D\).
 Dominating Set Problem	The dominating set problem concerns testing whether \(\gamma(G) \leq K\) for a given graph \(G\) and input \(K\).
 Domination Number	The domination number \(\gamma(G)\) is the number of vertices in a smallest dominating set for \(G\).
 Edge Contraction	An edge contraction is an operation which removes an edge from a graph while simultaneously merging the two vertices it used to connect.
 Family	In set theory and its applications throughout mathematics, a class is a collection of sets or other mathematical objects that can be unambiguously defined by a property that all its members share.
+Finite Graph	A finite graph is a graph in which the vertex set and the edge set are finite sets.
 Formal Language	A formal language \(L\) over an alphabet \(\Sigma\) is a set of words over that alphabet.
+Graph	A graph is an ordered pair \(G = (V, E)\) comprising a set \(V\) of vertices/nodes/points together with a set \(E\) of edges.
+Hypergraph	In mathematics, a hypergraph is a generalization of a graph in which an edge can join any number of vertices.
 Independent Set/Stable Set	In graph theory, an independent set or stable set is a set of vertices in a graph, no two of which are adjacent.
+Loop	In graph theory, a loop is an edge that connects a vertex to itself.
 Maximal Clique	A maximal clique is a clique that cannot be extended by including one more adjacent vertex, that is, a clique which does not exist exclusively within the vertex set of a larger clique.
 Maximum Clique	A maximum clique of a graph \(G\), is a clique, such that there is no clique with more vertices.
 Maximum Independent Set	A maximum independent set is an independent set of largest possible size for a given graph \(G\).
@@ -28,13 +35,13 @@ Multigraph	A multigraph is a graph which is permitted to have edges that have th
 One-Tape Turing Machine	A one-tape turing machine is defined as a \(7\)-tuple \(M = \langle Q, \Gamma, b, \Sigma, \delta, q_0, F \rangle\) where: \begin{description} \item[\(Q\)] is a finite, non-empty set of states \item[\(\Gamma\)] is a non-empty set of symbols \item[\(b \in \Gamma\)] is a blank symbol \item[\(\Sigma \subseteq \Gamma \setminus \{b\}\)] is the set of input symbols \item[\(\delta :(Q\setminus F) \times \Gamma \rightarrow Q \times \Gamma \times \{L,R\}\)] is a partial function called the transition function \item[\(q_0 \in Q\)] is the initial state\end{description}
 Order of a bramble	The order of a bramble is the smallest size of a hitting set, a set of vertices of \(G\) that has a nonempty intersection with each of the subgraphs.
 Path	A path is a trail in which all vertices except possibly the first and last are distinct.
+Regular Graph	In graph theory, a regular graph is a graph where every vertex has the same degree or valency.
 Set Independence Equivalence	A set is independent if and only if its complement is a vertex cover.
-Simple Graph	A simple graph, as opposed to a multigraph, is an undirected graph in which both multiple edges and loops are disallowed. In a simple graph the edges form a set (rather than a multiset) and each edge is an unordered pair of distinct vertices.
+Simple Graph	A simple graph, as opposed to a multigraph, is an undirected graph in which both parallel edges/multiple edges and loops are disallowed. In a simple graph the edges form a set rather than a multiset and each edge is an unordered pair of distinct vertices.
 String/Word	In formal language theory, a string or word is defined as a finite sequence of symbols .
 Symbol/Letter	In formal language theory, the elements of an alphabet are called symbols or letters.
 Trail	A trail is a walk in which all edges are distinct.
 Turing Machine computes a function	Let \(f: \{0,1\}^ \ast \rightarrow \{0,1\}^\ast\) and let \(T: \mathbb{N} \rightarrow \mathbb{N}\) be some functions, and let \(M\) be a Turing Machine. We say that \(M\) computes \(f\) if for every \(x \in \{0,1\}^\ast\), whenever \(M\) is initialized to the start configuration on input \(x\), then it halts with \(f(x)\) written on its output tape.
-Undirected Simple Graph Density	For undirected simple graph density is defined as: \[D=\dfrac{2|E|}{|V|(|V|-1)}\]
 Vertex Cover	A vertex cover \(V'\) of an undirected graph \(G = ( V , E )\) is a subset of \(V\) such that \(u v \in E \Rightarrow u \in V' \lor v \in V'\), that is to say it is a set of vertices \(V'\) where every edge has at least one endpoint in the vertex cover \(V’\). Such a set is said to cover the edges of \(G\).
 Vertex Cover Number	The vertex cover number \(\tau\) is the size of a minimum vertex cover: \[\tau = |V'|\].
 Walk	A walk of length \(k\) in a graph is an alternating sequence of vertices and edges, \(v_{0},e_{0},v_{1},e_{1},v_{2},\ldots ,v_{k-1},e_{k-1},v_{k}\), which begins and ends with vertices. If the graph is undirected, then the endpoints of \(e_{i}\) are \(v_{i}\) and \(v_{i+1}\). If the graph is directed, then \(e_{i}\) is an arc from \(v_{i}\) to \(v_{i+1}\).
