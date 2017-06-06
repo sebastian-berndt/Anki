@@ -1,7 +1,30 @@
-Aequivalenz Offen	Sei \((X,d)\) ein metrischer Raum, sowie \(T \subseteq X\) und sei \(d_{T}\) die durch \(d\) induzierte Metrik auf \(T\). Dann sind folgende Aussagen aequivalent: \begin{enumerate} \item \(V \subseteq T\) ist offen bzgl. \(d_{T}.\) \item Es gibt eine bzgl. \(d\) offene Menge \(U \subseteq X\), so dass \(V=T \cap U.\) \end{enumerate}
-Aequivalent Abgeschlossen	Sei \((X,d)\) ein metrischer Raum, sowie \(T \subseteq X\) und sei \(d_{T}\) die durch \(d\) induzierte Metrik auf \(T\). Dann sind folgende Aussagen aequivalent: \begin{enumerate} \item \(V \subseteq T\) ist abgeschlossen bzgl. \(d_{T}.\) \item Es gibt eine bzgl. \(d\) abgeschlossene Menge \(U \subseteq X\), so dass \(V=T \cap U.\) \end{enumerate}
+
+Sei \((X,d)\) ein metrischer Raum und \(A, K\) zwei nichtleere Mengen mit \(A \subseteq X\) abgeschlossen und \(K \subseteq X\) kompakt. Dann gilt: \[A \cap K = \emptyset \quad \Rightarrow \quad d(A,K) > 0\]
 
 
 
-Aussere Ma\ss	Das aeu\ss ere Mass \( \mu^{\ast}(A)\) einer beliebigen Teilmenge \(A \subseteq \Omega\) ist definiert als \[\mu^{\ast}:=inf \sum_{k=1}^{\infty} \mu(E_{K}),\] wobei das Infimum ueber alle Folgen von Elementarmengen \(E_{K}\) zu nehmen ist, deren Vereinigung \(A\) ueberdeckt.
-Satz 1.21	Die Menge \(M\) der endlich messbaren Mengen bildet einen Ring. Das aussere Mass ist additiv auf M.
+
+
+Satz ueber die Kompaktheit von Wuerfeln	Seien \(r > 0\) und \((a_{1}, \ldots,a_{n}) \in \mathbb{R}^{n}.\) Dann ist der Wuerfel \[Q:= \prod [a_{i},a_{i}+r]=[a_{1},a_{1}+r] \times \cdots \times [a_{n},a_{n}+r] \subseteq \mathbb{R}^{n}\] eine kompakte Teilmenge des \(\mathbb{R}^n\).
+
+
+Seien \(V,W\) normierte Raeume und sei \(f:V \rightarrow W\) eine lineare Abbildung. Gilt \(\dim{V} < \infty\), so ist \(f\) stetig.
+
+
+Satz 2.7	Seien \(V, W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen und \(f:G \rightarrow W\) differenzierbar in \(x \in G\). Dann ist \(f\) stetig in \(x\).
+Satz 2.13	Seien \(G \subseteq \mathbb{R}^{n}\) offen und \(f:G \rightarrow \mathbb{R}^{m}\) eine Funktion. Ist \(f\) stetig partiell differenzierbar, dann ist \(f\) auch stetig differenzierbar und fuer alle \(x \in G\) gilt: \[\big[Df(x)\big]=\begin{bmatrix}\frac{\partial f}{\partial x_{1}}(x) & \ldots & \frac{\partial f}{\partial x_{n}}(x) \end{bmatrix} \cdot v = \sum_{j=1}^{n}v_{j}\frac{\partial f}{\partial x_{j}}(x)\].
+
+Bemerkung 2.24	Seien \(k \in \mathbb{N} \setminus \{0\}, K\) ein Koerper und \(V_{1},\ldots,V_{k},W\) Vektorraeume ueber \(K\). Ferner sei \(\mu : V_{1} \times \cdots V_{k} \rightarrow W\). Dann gilt fuer alle \((x_{1},\ldots,x_{k}),(v_{1},\ldots,v_{k}) \in V_{1} \times \cdots \times V_{k}\):\[D\mu(x_{1},\ldots,x_{k})(v_{1},\ldots,v_{k})=\sum_{j=1}^{k}\mu(x_{1},\ldots,x_{j-1},v_{j},x_{j+1},\ldots,x_{k})\]
+Lemma 2.26	Sei \(V, W\) zwei endlich-dimensionale Banachraeume, sei \(D \subseteq V\) und seien \(g_{1},g_{2}:V \rightarrow W\) stetig. Dann gilt: \begin{enumerate} \item Die Menge \(\{x \in D| g_{1}(x)=g_{2}(x)\}\) ist abgeschlossen in \(D.\) \item Gilt speziell \(W =\mathbb{R}\), so ist auch \(\{x \in D| g_{1}(x)\leq g_{2}(x)\}\)\end{enumerate}
+
+Korollar 2.32	Seien \(V,W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen, \(f: G \rightarrow W\) stetig differenzierbar, sowie \(K \subseteq G\) kompakt und konvex. Dann ist \(f\) Lipschitz-stetig auf \(K\), d.h. es gibt eine Konstante \(L \geq 0\), so dass fuer alle \(x,y \in K\) gilt: \[\|f(x) - f(y)\| \leq L \cdot \|x - y\|\]
+Korollar 2.33	Seien \(V,W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen und konvex, sowie \(f: G \rightarrow W\) stetig differenzierbar. Falls es eine Konstante \(L < 1\) gibt, so dass \(\|Df(x)\| \leq L\) fuer alle \(x \in G\) gilt, so ist \(f\) eine Kontraktion.
+
+Seien \(V,W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen, sowie \(f:G \rightarrow W\). Ist \(f\) \((k-1)\)-mal differenzierbar und ist die \((k-1)\)-te Ableitung \[D^{k-1}f:G \rightarrow L^{k-1}(V,W)\] differenzierbar in \(x \in G\), so hei\ss t \(f\) \(k\)-mal differenzierbar in \(x\) und die \(k\)-te Ableitung \(D^{k}f(x) \in L^{k}(V,W)\) von \(f\) in \(x\) ist gegeben durch\[D^{k}f(x)(v_{1},\ldots,v_{k}):=D(D^{k-1}f)(x)(v_{1})(v_{2},\ldots,v_{k}), \quad v_{1},v_{2},\ldots,v_{k} \in V.\]
+Seien \(V,W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen, sowie \(f:G \rightarrow W\). Ist \(f\) in allen \(x \in G\) \(k\)-mal differenzierbar, so hei\ss t \(f\) \(k\)-mal differenzierbar.
+Seien \(V,W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen, sowie \(f:G \rightarrow W\). Ist \(f\) \(k\)-mal differenzierbar und \(D^{k}f\) stetig, so hei\ss t \(f\) \(k\)-mal stetig differenzierbar.
+
+
+
+
+An oracle Turing machine \(M\) is a \(TM\) that has a special read-write tape oracle tape and three special states \(q_{query},q_{yes},q_{no}\). In addition to the input there is a language \( O \subseteq \{0,1\}^{\ast}\) used as the oracle for \(M\). Whenever during the  execution \(M\) enters the state \(q_{query}\) the machine moves into the state \(q_{yes}\) if \(q \in O\) and \(q_{no}\) if \( q \not \in O\), where \(q\) denotes the contents of the special oracle tape. Regardless of the choice of \(O\), a membership query to \(O\) counts as a single computational step.
