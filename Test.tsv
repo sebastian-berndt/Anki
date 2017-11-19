@@ -24,6 +24,40 @@ Seien \(V,W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen, sowie 
 Seien \(V,W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen, sowie \(f:G \rightarrow W\). Ist \(f\) in allen \(x \in G\) \(k\)-mal differenzierbar, so hei\ss t \(f\) \(k\)-mal differenzierbar.
 Seien \(V,W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen, sowie \(f:G \rightarrow W\). Ist \(f\) \(k\)-mal differenzierbar und \(D^{k}f\) stetig, so hei\ss t \(f\) \(k\)-mal stetig differenzierbar.
 
+Satz 2.38	Seien  \(V,W\) endlich-dimensionale Vektorraeume, \(G \subseteq V\) offen und \(f: G \rightarrow W\) sei \(k\)-mal differenzierbar in \(x \in G\). Dann gilt fuer alle \(v_{1},\ldots,v_{k} \in V\), dass \[D^{k}f(x)(v_{1},\ldots,v_{k})=\partial_{v_{1}} \ldots \partial_{v_{k}}f(x):=\partial_{v_{1}} \big{(} \partial_{v_{2}} \ldots \big{(} \partial_{v_{k}}f(x)) \ldots \big{)}.\]
+
+Seien \(W\) ein endlich-dimensionalere Banachraum, \(G \subseteq \mathbb{R}^{n}\) offen, \(x \in G, f: G \rightarrow W\) eine Abbildung, sowie \(j_{1},\ldots,j_{k} \in \{1,\ldots,n\}\) (nicht notwendigerweise paarweise verschieden). Existiert der Ausdruck \[\frac{\partial^{k}f}{\partial x_{ji}\ldots \partial x_{jk}}(x):=\partial_{ji} \ldots \partial_{jk} f(x)\] so hei\ss t dieser \(k\)-te partielle Ableitung (auch partielle Ableitung \(k\)-ter Ordnung) von \(f\) in \(x\) nach \(x_{j_{1}},\ldots,x_{j_{k}}\). (Man erinnere sich dabei daran, dass \(\partial_{j}\) eine Abkuerzung fuer \(\partial_{e_{j}}\), also die Richtungsableitung in Richtung des \(j\)-ten Standardbasisvektors ist.
+
+Seien \(W\) ein endlich-dimensionaler Banachraum, \(G \subseteq \mathbb{R}^{n}\) offen, sowie \(f:G \rightarrow W\) eine Abbildung. Existiereen alle partiellen Ableitungen \(k\)-ter Ordnung von \(f\) und sind diese stetig, so ist \(f\) \(k\)-mal (stetig) differenzierbar.
+
+Seien \(V,W\) endlich-dimensionale Banachraeume, sei \(G \subseteq V\) offen, und sei \(f:G \rightarrow W\) differenzierbar und zweimal differenzierbar in \(x \in G\). Dann gilt fuer alle \(u,v \in V\), dass \[D^{2}f(x)(u,v)=\lim_{h \rightarrow 0} \frac{f(x+hu+hv)-f(x+hu)-f(x+hv)+f(x)}{h^{2}}\]
+
+Sei \(G \subseteq \mathbb{R}^{n}\) offen und \(f: G \rightarrow \mathbb{R}\) zweimal differenzierbar. Dann gilt fuer alle \(x \in G\) und alle \(i,j \in \{1,\ldots,n\}\), dass: \[\frac{\partial^{2}f}{\partial x_{i} \partial x_{j}}(x)=\frac{\partial^{2}f}{\partial x_{j} \partial x_{i}}(x).\]
+
+Taylor-Formel-2	Seien \(V,W\) endlich-dimensionale Banachraeume, \(G \subseteq V\) offen, \(f:G \rightarrow W\) \((k+1)\)-mal differenzierbar und \(x_{0} \in G\). Gilt außerdem \(W=\mathbb{R}\) und gilt fuer alle \(x \in G\) auch \(\overline{xx_{0}}\subseteq G\), so gibt es ein \(\xi \in \overline{xx_{0}}\), so dass fuer \(R(x)\) aus \(1)\) gilt, dass: \[R(x)=\frac{1}{(k+1)!}D^{k+1}f(\xi)((x-x_{0})_{1},\ldots,(x-x_{0})_{k+1}).\]
+
+2.51	Sei \(V\) ein normierter Raum und sei \(\mu \in L^{k}(V,\mathbb{R})\) eine symmetrische Linearform auf \(V\). Falls \(\mu (v,\ldots,v)=0\) fuer alle \(v \in V\) gilt, so folgt \(\mu = 0\).
+2.51	Sei \(V\) ein normierter Raum und sei \(\mu \in L^{k}(V,\mathbb{R})\) eine symmetrische Linearform auf \(V\). Ist \(k\) ungerade, so ist entweder \(\mu\) indefinit oder \(\mu = 0\).
+
+2.52	Sei \(V\) ein endlich-dimensionaler Banachraum, \(G \subseteq \mathbb{R}\) offen, \(f:G \rightarrow V\) \(k\)-mal differenzierbar und \(x_{0} \in G\), so dass \[Df(x_{0})=0,\ldots, D^{k-1}f(x_{0})=0, \quad \text{ aber } D^{k}f(x_{0}) \neq 0.\] Dann gilt: \begin{enumerate} \item Ist \(D^{k}f(x_{0})\) negativ definit, so hat \(f\) in \(x_{0}\) ein striktes lokales Maximum. \item \(D^{k}f(x_{0})\) positiv definit, so hat \(f\) in \(x_{0}\) ein striktes lokales Minimum. \item \(D^{k}f(x_{0})\) indefinit, so hat \(f\) in \(x_{0}\) kein lokales Maximum.\end{enumerate}
+
+2.54	Sei \(V\) ein endlich-dimensionaler Banachraum, sei \(G \subseteq V\) offen und sei \(f:G \rightarrow \mathbb{R}\) differenzierbar. Hat \(f\) in \(x_{0} \in G\) ein lokales Extremum, so gilt \(Df(x_{0})=0\).
+
+3.6	Die Abbildung \(\text{inv}:GL_{n}(\mathbb{R}) \rightarrow \mathbb{R}^{n,n}, A \mapsto A^{-1}\) ist differenzierbar und fuer alle \(A \in GL_{n}(\mathbb{R})\) und alle \(H \in \mathbb{R}^{n,n}\) gilt: \[D(\text{inv})(A)(H)=-A^{-1}HA^{-1}.\]
+
+DEF 3.9	Sei \(G \subseteq \mathbb{R}^{n} \times \mathbb{R}^{m}\) offen, \(F:G \rightarrow \mathbb{R}^{l}\) differenzierbar, sowie \((x_{0},y_{0}) \in G\). Dann sind die linearen Abbildungen \(F_{x}(x_{0},y_{0}):\mathbb{R}^{n} \rightarrow \mathbb{R}^{l}\) und \(F_{y}(x_{0},y_{0}):\mathbb{R}^{m} \rightarrow \mathbb{R}^{l}\) gegeben durch: \[x \mapsto DF(x_{0},y_{0})(x,0) \quad \text{bzw.} \quad y \mapsto DF(x_{0},y_{0})(0,y).\]
+
+Lemma 3.10	Sei \(\tilde{U} \subseteq \mathbb{R}^{n} \times \mathbb{R}^{m}\) offen. Dann gibt es zu jedem \((x,y) \in \tilde{U}\) offene Umgebungen \(U \subseteq \mathbb{R}^{n}\) von \(x\) und \(V \subseteq \mathbb{R}^{m}\) von \(y\), so dass \(U \times V \subseteq \tilde{U}\).
+
+Satz 3.18	Sei \(G \subseteq \mathbb{R}^{m}\) offen und \(\phi: G \rightarrow \mathbb{R}^{n}\) eine Immersion. Dann gibt es zu jedem \(x \in G\) eine offene Umgebung \(U \subseteq G\) von \(x\), sodass die Einschraenkung \(\phi \big{|}_{U}:U \rightarrow \phi(U)\) ein Homoeomorphismus ist, wobei \(\phi(U)\subseteq \mathbb{R}^{n}\) mit der Spurmetrik ausgestattet ist
+
+DIE DEFINITIONEN IN 3.20 FEHLEN
+
+Satz 3.24	Sei \(M \subseteq \mathbb{R}^{n}\). Dann sind folgende Aussagen aequivalent: \begin{enumerate} \item \(M\) ist eine \(m\)-dimensionale Untermannigfaltigkeit des \(\mathbb{R}^{n}\) \item \textbf{(Transformation in Ebenen)} Zu jedem \(a \in M\) gibt es offene Mengen \(U,V \subseteq \mathbb{R}^{n}\) mit \(a \in U\), sowie einen Diffeomorphismus \(\Psi: U \rightarrow V\), so dass \[\Psi(M \cap U)= \{(x_{1},\ldots,x_{n}) \in \mathbb{R}^{n}|x_{m+1}=\cdots =x_{n}=0\} \cap V.\] \item \textbf{(Darstellung durch Gleichungen)} Zu jedem \(a \in M\) gibt es eine offene Umgebung \(U \subseteq \mathbb{R}^{n}\) von \(a\) und eine stetig differenzierbare Funktion \(f:U \rightarrow \mathbb{R}^{n-m}\) mit der Eigenschaft: \[\text{Rang } Df(x)=n-m\] fuer alle \(x \in M \cap U\), so dass \[M \cap U = \{x \in U|f(x)=0\}.\]\item \textbf{(Darstellung als Graph)} Zu jedem \(a=(a_{1},\ldots,a_{n}) \in M\) gibt es (ggf. nach Umnummerierung der Koordinaten) offene Umgebungen \(U^{\prime} \subseteq \mathbb{R}^{m}\) von \(a^{\prime}:=(a_{1},\ldots,a_{m})\) und \(U^{\prime \prime} \subseteq \mathbb{R}^{n-m}\) von \(a^{\prime \prime}:=(a_{m+1},\ldots,a_{n})\) sowie eine stetig differenzierbare Abbildung \(g: U^{\prime} \rightarrow U^{\prime \prime}\), so dass \[M \cap (U^{\prime} \times U^{\prime \prime})= \{(x^{\prime},x^{\prime \prime}) \in U^{\prime} \times U^{\prime \prime} | x^{\prime \prime} = g(x^{\prime})\}\]\end{enumerate}
+
+Def 3.27	Sei \(G \subseteq \mathbb{R}^{n}\) offen und seien \(f:G \rightarrow \mathbb{R}\) und \(g:G \rightarrow \mathbb{R}^{m}\) stetig differenzierbar, wobei \(m \leq n\) \begin{enumerate} \item Man nennt: \[\begin{cases} \min f(x)\\ g(x)=0\end{cases}\] \item \(F:=\{x \in G|g(x)=0\}\) hei\ss t zulaessiger Bereich der Extremwertaufgabe mit Nebenbedingung \item Ein Punkt \(x \in F\) hei\ss t regulaer, falls \(\text{Rang } Df(x)=m\) \item Ein Punkt \(x^{\ast} \in F\) hei\ss t lokale Loesung der Extremwertaufgabe mit Nebenbedingung odere auch Stelle eines lokalen Minimums einer Extremwertaufgabe, falls ein \(\epsilon >0\) existiert, so dass \[f(x^{\ast}) \leq f(x)\] fuer alle \(x \in F\) mit \(\|x-x^{\ast}\| \leq \epsilon\) gilt.\end{enumerate}
+
+Tangentialraum einer Mannigfaltigkeit in einem Element	Sei \(M\) eine Untermannigfaltigkeit des \(\mathbb{R}^{n}\) und sei \(a \in M\). Die Menge \(T_{a}(M):=\{v \in \mathbb{R}^{n}| v\) ist Tangentialvektor an \(M\) in \(a\}\) hei\ss t Tangentialraum von \(M\) in \(a\).
 
 
 
