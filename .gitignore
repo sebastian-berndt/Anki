@@ -30,6 +30,7 @@ output/
 *.log
 *.sqlite
 *.pid
+*.db
 
 # OS generated files #
 ######################
