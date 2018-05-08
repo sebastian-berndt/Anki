@@ -13,8 +13,8 @@ Wie nennt man die Norm auf dem \(\mathbb{R}^n\) mit \[\|x\|_1 :=\sum \limits_{i=
 Wie nennt man die Norm auf dem \(\mathbb{R}^n\) mit \[\|x\|_\infty :=\max_{i=1,\dots,n} |x_i|,\] fuer \(\mathbb{R}^n:=\{(x_1,\dots,x_n)|x_i \in \mathbb{R}\} \)	Maximumsnorm
 Wie heißt die Ungleichung? \[ d(x,y)\leq d(x,z)+d(z,y)\] 	Die Ungleichung \[ d(x,y)\leq d(x,z)+d(z,y)\] heisst \(Dreiecksungleichung\)
 Wie lautet die \(Dreiecksungleichung\)? 	Die \(Dreiecksungleichung\) lautet \[ d(x,y)\leq d(x,z)+d(z,y)\]
-Inneres\mathring{M} einer Teilmenge \(M\) des topologischen Raums	Das Innere \mathring{M} einer Teilmenge \(M\) des topologischen Raums ist offen und besteht aus der Menge aller inneren Punkte von \(M\).
-abgeschlossene Huelle	Die abgeschlossene Huelle \bar{M} von \(M\) ist abgeschlossen und besteht aus der Menge aller Beruehrpunkte von \(M\).
+Inneres\(\mathring{M}\) einer Teilmenge \(M\) des topologischen Raums	Das Innere \mathring{M} einer Teilmenge \(M\) des topologischen Raums ist offen und besteht aus der Menge aller inneren Punkte von \(M\).
+abgeschlossene Huelle	Die abgeschlossene Huelle \(\bar{M}\) von \(M\) ist abgeschlossen und besteht aus der Menge aller Beruehrpunkte von \(M\).
 Rand	Der Rand \(\delta M \) von \(M\) ist abgeschlossen und besteht aus der Menge aller Beruehrpunkte von M, die keine inneren Punkte von \(M\) sind.
 
 

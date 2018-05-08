@@ -1,0 +1,30 @@
+Ring \"uber eine Menge	Sei \(\Omega\) eine Menge. Dann hei{\ss}t eine Menge \(\mathcal{R} \subset \mathcal{P}(\Omega)\) Ring \"uber \(\Omega\), falls gilt: \begin{enumerate} \item \(\mathcal{R} \neq \emptyset\). \item \(\mathcal{R}\) ist vereinigungsstabil, d.h. f\"ur alle \(A, B \in \mathcal{R}\) gilt \(A \cup B \in \mathcal{R}\) \item \(\mathcal{R}\) ist differenzstabil, d.h. f\"ur alle \(A, B \in \mathcal{R}\) gilt \(A \setminus B \in \mathcal{R}\) \end{enumerate}
+Elementargeometrische Menge	Eine Menge \(A \subseteq \mathbb{R}^{d}\) hei{\ss}t elementargeometrisch, falls \(A\) Vereinigung von endlich vielen achsenparallelen Quadern  \[Q = I_{1} \times \cdots \times I_{d}\] mit \(I_{j} \in {[a,b], [a,b[, ]a,b],]a,b[ \mid a,b \in \mathbb{R}}, j = 1, \ldots, d.\)
+\(\sigma\)-Ring \"uber eine Menge	Sei \(\mathcal{R}\) ein Ring \"uber \(\Omega\). \(\mathcal{R}\) hei{\ss}t \(\sigma\)-Ring \"uber \(\Omega\), falls \(\mathcal{R}\) abgeschlossen gegen\"uber der Bildung von abz\"ahlbaren Vereinigungen ist, d.h. falls gilt: \[A_{k} \in \mathcal{R}, k \in \mathbb{N} \quad \Longrightarrow \quad \bigcup_{k=0}^{\infty} A_{k} \in \mathcal{R}\]
+\(\sigma\)-Algebra	Sei \(\mathcal{R}\) ein Ring \"uber \(\Omega\). Dann hei{\ss}t \(\mathcal{R}\) \(\sigma\)-Algebra \"uber \(\Omega\), falls \(\mathcal{R}\) ein \(\sigma\)-Ring ist und \(\Omega \in \mathcal{R}\).
+Messbare Mengen	Die Elemente des Mengensystems einer \(\sigma\)-Algebra hei{\ss}en messbare Mengen.
+Borel'sche \(\sigma\)-Algebra	Die von den elementargeometrischen Mengen \(\mathcal{R}_{ED}^{d}\) erzeugte \(\sigma\)-Algebra \"uber \(\mathcal{R}^{d}\) hei{\ss}t Borel'sche \(\sigma\)-Algebra \(\mathcal{B}^{d}\) (kurz: \(\mathcal{B}\)).
+Borel-Mengen	Die Elemente einer Borel'schen \(\sigma\)-Algebra nennt man Borelmengen.
+Additive Mengenfunktion	Sei \(\mathcal{R}\) ein Ring \"uber \(\Omega\) und \(\mu: \mathcal{R} \rightarrow [0, \infty]:=[0,\infty]\cup{\infty}\) eine auf dem \(\mathcal{R}\) definierte Mengenfunktion. Dann hei{\ss}t \(\mu\) additiv oder Inhalt auf \(\mathcal{R}\), falls \(\mu(\emptyset)=0\) und falls f\"ur alle \(A,B \in \mathcal{R}\) mit \(A \hat B = \emptyset\) gilt, dass \[\mu(A \cup B) = \mu(A)+\mu(B).\]
+Inhalt	Sei \(\mathcal{R}\) ein Ring \"uber \(\Omega\) und \(\mu: \mathcal{R} \rightarrow [0, \infty]:=[0,\infty]\cup{\infty}\) eine auf dem \(\mathcal{R}\) definierte Mengenfunktion. Dann hei{\ss}t \(\mu\) additiv oder Inhalt auf \(\mathcal{R}\), falls \(\mu(\emptyset)=0\) und falls f\"ur alle \(A,B \in \mathcal{R}\) mit \(A \hat B = \emptyset\) gilt, dass \[\mu(A \cup B) = \mu(A)+\mu(B).\]
+\(\sigma\)-additiv	Eine additive Mengenfunktion \(\mu\) auf einem Ring \(\mu\) auf einem Ring \(\mathcal{R}\) hei{\ss}t \(\sigma\)-additiv oder Pr\"ama{\ss}, wenn f\"ur alle Folgen \((A_{k})\) paarweise disjunkter Mengen aus \(R\), deren Vereinigung selbst in \(R\) liegt, gilt: \[\mu\Big(\bigcup_{k=1}^{\infty}A_{k}\Big)=\sum_{k=1}^{\infty}\mu(A_k)\]
+Pr\"ama{\ss}	Eine additive Mengenfunktion \(\mu\) auf einem Ring \(\mathcal{R}\) hei{\ss}t \(\sigma\)-additiv oder Pr\"ama{\ss}, wenn f\"ur alle Folgen \((A_{k})\) paarweise disjunkter Mengen aus \(R\), deren Vereinigung selbst in \(R\) liegt, gilt: \[\mu\Big(\bigcup_{k=1}^{\infty}A_{k}\Big)=\sum_{k=1}^{\infty}\mu(A_k)\]
+Ma{\ss}	Ein Pr\"ama{\ss} auf einem \(\sigma\)-Ring hei{\ss}t Ma{\ss}.
+Dynkin-System	Ein Dynkin-System D auf \(\Omega\) ist eine Menge von Teilmengen von \(\Omega\) mit den Eigenschaften \begin{enumerate} \item \(\Omega \in D,\) \item \(A \in D \implies \Omega \setminus A \in D,\) \item Sind \(A_{k} \in D,A_{k} \cap A_{l} = \emptyset\) f\"ur \(k \neq l\), so ist \(\bigcup_{k=1}^{\infty}A_{k} \in D.\) \end{enumerate}
+
+Messbare Funktion	Sei \((\Omega,\mathfrak{A},\mu)\) ein allgemeiner Ma{\ss}raum. Eine Funktion \(f:\Omega \rightarrow [-\infty,+\infty]\) hei{\ss}t messbar, wenn die Mengen \[f^{-1}\big((c,\infty)\big)=\{x \in \Omega|f(x)>c\}\] f\"ur alle \(c \in \mathbb{R}\) messbar sind, also in \(\mathfrak{A}\).
+
+
+Elementarfunktion	Eine messbare Funktion \(f: \Omega \rightarrow [0,\infty[\) hei{\ss}t Elementarfunktion (auch einfache Funktion), falls \(f(\Omega)\) endlich ist, d.h. falls \(f\) nur endlich viele Werte annimmt.
+
+
+Nullmenge	Sei \((\Omega, \mathcal{A}, \mu)\) ein Ma{\ss}raum. Eine Menge \(N \in \mathcal{A}\) hei{\ss}t Nullmenge, falls \[\mu(A) = 0\].
+
+Mengenring sch\"opft Menge aus	Sei \(\mathcal{R}\) ein Mengenring \"uber \(\Omega\) und \(\mu\) ein Pr\"ama{\ss} auf \(\mathcal{R}\), sowie \(\mathcal{R} \subseteq \mathcal{R}.\) Wir sagen \(\mathcal{E}\) sch\"opft \(\Omega\) bzgl. \(\mu\) aus, falls es \(E_{k} \in \mathcal{E},k \in \mathbb{N}\) gibt, so dass \[\Omega = \bigcup_{k=0}^{\infty} E_{k} \quad \text{ und } \mu(E_{k})<\infty.\]
+
+Abstandsma{\ss} von Teilmengen	Seien \(A, B \subseteq \Omega.\) Dann hei{\ss}t \[d(A,B):=\mu\ast(A \vartriangle B)\] das Abstandsma{\ss} von \(A\) und \(B\). Hierbei bezeichnet \(A \vartriangle B = (A \setminus B) \cup (B \setminus A)\) die symmetrische Differenz.
+
+
+
+
+Algebra	Sei \(\Omega\) eine beliebige Menge. Dann hei{\ss}t ein System von Teilmengen von \(\Omega\) Algebra \"uber \(\Omega\), falls gilt: \begin{enumerate} \item \(\Omega \neq \emptyset\). \item \(\Omega\) ist vereinigungsstabil, d.h. f\"ur alle \(A, B \in \Omega\) gilt \(A \cup B \in \Omega\) \item \(\Omega\) ist stabil bzgl. Komplementbildung, d.h. f\"ur alle \(A \in \Omega\) gilt \(A^{C} \in \Omega,\) wobei \(A^{C} = \Omega \setminus A\) \end{enumerate}

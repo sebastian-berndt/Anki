@@ -1,0 +1,21 @@
+
+
+F\"ur jedes Ma{\ss} \(\mu\) auf \((\mathbb{R},\mathcal{B}),\)  (wobei \(\mathcal{B}\) die Borel-\(\sigma\)-Algebra ist) mit \[\mu((s,t])<\infty\] f\"ur alle \(s < t\) ist die Abbildung \(t \mapsto \mu((-\infty,t])\) monoton steigend und rechtsseitig stetig.
+
+
+6.4.11	Es sei \((\Omega,\mathcal{F})\) ein messbarer Raum und  \(\Gamma\) eine Menge von nichtnegativen messbaren numerischen Funktionen mit den folgenden Eigenschaften: \begin{enumerate} \item Falls \(f,g \in \Gamma\) und \(a, b \in (0,\infty),\) so gilt \(af+bg \in \Gamma.\) \item Falls \(f_{1},f_{2},f_{3}, \cdots \in \Gamma\) mit \(f_{n} \uparrow f\) f\"ur \(n \rightarrow \infty,\) so gilt \(f \in \Gamma.\) \item \(\Gamma\) enth\"alt alle Indikatorfunktionen \(\mathds{1}_{A}\) mit \(A \in \mathcal{F}\) \end{enumerate} Dann ist \(\Gamma\) die Menge aller nichtnegativen messbaren numerischen Funktionen.
+
+
+
+
+
+
+
+Ein \"au{\ss}eres Ma{\ss} \"uber \(X\) ist eine Funktion \(\nu^{\ast}:\mathcal{P}(X) \rightarrow [0, \infty],\) die monoton und \(\sigma\)-subadditiv ist im Sinne, dass_ \begin{enumerate} \item \(\nu^{\ast}(\emptyset)=0,\) \item \(A \subset B \implies \nu^{\ast}(A) \leq \nu^{\ast}(B),\) \item \(\nu^{\ast}\Big(\bigcup_{k=0}^{\infty}a_{i}\Big) \leq \sum_{k=0}^{\infty}\nu^{\ast}(A_{k}).\) \end{enumerate}
+
+
+
+
+
+
+6.7.3	Es sei \((\Omega, \mathcal{F}, \mu)\) ein endlicher Ma{\ss}raum. Dann gelten f\"ur \(1 \leq p \leq p^{'} \leq \infty\) die Inklusionen \(\mathcal{L}^{p^{'}}(\mu) \subset \mathcal{L}^{p}(\mu)\) und \(\mathcal{L}^{p^{'}}(\mu) \subset \mathcal{L}^{p}(\mu)\). Falls \(\mu(\Omega)=1\), so ist die Abbildung \([1,\infty] \rightarrow[0,\infty], p \mapsto \|f\|_{p}\) f\"ur jede messbare numerische Funktion \(f\) monoton nichtfallend.
